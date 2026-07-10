@@ -39,6 +39,20 @@ npm run build
 3. Framework: **Next.js**
 4. **Deploy**
 
+**Settings → Build & Development Settings** (если 404 NOT_FOUND):
+
+| Поле | Значение |
+|------|----------|
+| Framework Preset | Next.js |
+| Root Directory | пусто |
+| Build Command | пусто (дефолт) |
+| Output Directory | **пусто** (не `.next`, не `web/.next`) |
+| Node.js Version | 20.x |
+
+После смены настроек: Deployments → Redeploy → без build cache.
+
+Открывай URL кнопкой **Visit** на Ready-деплое, не старый bookmark.
+
 После push в `main` Vercel пересобирает автоматически.
 
 ### Обновление данных
