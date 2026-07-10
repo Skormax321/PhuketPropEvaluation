@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw data & analysis outputs (not needed for Vercel)
+output/
+*.csv
+
+# OS
+.DS_Store
