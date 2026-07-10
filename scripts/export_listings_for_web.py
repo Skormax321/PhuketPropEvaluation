@@ -10,7 +10,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = ROOT / "web" / "public" / "data"
+OUT_DIR = ROOT / "public" / "data"
 
 COLUMNS = ("district", "price_usd", "price_usd_sqm", "area_sqm", "bedrooms")
 

@@ -8,5 +8,10 @@ venv/
 output/
 *.csv
 
+# Next.js
+node_modules
+.next
+out
+
 # OS
 .DS_Store
