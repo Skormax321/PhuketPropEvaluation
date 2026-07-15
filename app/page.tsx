@@ -3,7 +3,7 @@ import CalculatorPage from "@/components/CalculatorPage";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
+    <main className="mx-auto flex min-h-screen max-w-5xl flex-col overflow-x-hidden px-4 py-10">
       <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
         <Image
           src="/tranio-logo.png"
@@ -11,9 +11,9 @@ export default function Home() {
           width={172}
           height={47}
           priority
-          className="h-10 w-auto sm:h-11"
+          className="h-auto w-[144px] max-w-[144px] shrink-0 sm:h-11 sm:w-[172px] sm:max-w-[172px]"
         />
-        <div>
+        <div className="min-w-0">
           <h1 className="text-xl font-medium text-ink">Калькулятор позиции юнита</h1>
           <p className="mt-1 text-sm text-muted">
             Сравнение цены, площади и $/m² с листингами квартир FazWaz (Phuket).
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="flex-1">
+      <div className="min-w-0 flex-1">
         <CalculatorPage />
       </div>
 

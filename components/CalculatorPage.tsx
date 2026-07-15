@@ -37,7 +37,7 @@ export default function CalculatorPage() {
   }
 
   return (
-    <div className="grid gap-8">
+    <div className="grid min-w-0 gap-8">
       <BenchmarkForm
         districts={data.districts}
         projects={data.projects}
@@ -46,18 +46,18 @@ export default function CalculatorPage() {
       />
 
       {result && kpis && (
-        <section className="grid gap-6">
-          <div>
+        <section className="grid min-w-0 gap-6">
+          <div className="min-w-0">
             <h2 className="mb-3 text-sm font-medium text-ink">Ключевые метрики</h2>
             <HeadlineCards kpis={kpis} />
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h2 className="mb-3 text-sm font-medium text-ink">Сводка</h2>
             <SummaryTable rows={result.cohorts.map((c) => c.summary)} />
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h2 className="mb-3 text-sm font-medium text-ink">Графики</h2>
             <CohortCharts cohorts={result.cohorts} unit={result.unit} />
           </div>

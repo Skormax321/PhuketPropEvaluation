@@ -64,7 +64,7 @@ function MiniHist({
   const medBin = data[binIndex(med)]?.name;
 
   return (
-    <div className="min-w-0 flex-1">
+    <div className="min-w-0 w-full flex-1">
       <p className="mb-1 text-xs text-muted">{title}</p>
       <ResponsiveContainer width="100%" height={120}>
         <BarChart data={data} margin={{ top: 4, right: 4, left: 0, bottom: 0 }}>
@@ -114,11 +114,11 @@ function CohortBlock({ cohort, unit }: { cohort: CohortResult; unit: UnitInput }
   const orig = unit.originalPriceUsd;
 
   return (
-    <div className="rounded-lg border border-border p-4">
+    <div className="min-w-0 overflow-hidden rounded-lg border border-border p-3 sm:p-4">
       <h3 className="mb-3 text-sm font-medium text-ink">
         {cohort.label} · выборка: {cohort.summary.n}
       </h3>
-      <div className="flex flex-col gap-4 lg:flex-row">
+      <div className="flex min-w-0 flex-col gap-4 lg:flex-row">
         {METRICS.map((m) => {
           const values = cohort.listings.map((r) => r[m.key]);
           const unitVal = m.unitVal(unit);
@@ -166,7 +166,7 @@ interface Props {
 export default function CohortCharts({ cohorts, unit }: Props) {
   const visible = cohorts.filter((c) => c.listings.length > 0);
   return (
-    <div className="grid gap-4">
+    <div className="grid min-w-0 gap-4">
       {visible.map((c) => (
         <CohortBlock key={c.name} cohort={c} unit={unit} />
       ))}

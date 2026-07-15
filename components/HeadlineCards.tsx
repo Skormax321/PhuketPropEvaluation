@@ -77,12 +77,12 @@ function Card({
   return (
     <div
       ref={rootRef}
-      className="relative z-10 overflow-visible rounded-lg border border-border bg-white p-4"
+      className="relative z-10 min-w-0 overflow-visible rounded-lg border border-border bg-white p-3 sm:p-4"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <div className="flex items-start justify-between gap-2">
-        <p className="text-xs text-muted">{title}</p>
+      <div className="flex min-w-0 items-start justify-between gap-2">
+        <p className="min-w-0 break-words text-xs text-muted">{title}</p>
         <button
           type="button"
           className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-border text-[11px] text-muted hover:border-ink hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
@@ -101,15 +101,15 @@ function Card({
         </button>
       </div>
 
-      <p className="mt-1 text-2xl font-medium text-ink">{value}</p>
-      <p className="mt-1 text-[11px] text-muted">{context}</p>
+      <p className="mt-1 break-words text-xl font-medium text-ink sm:text-2xl">{value}</p>
+      <p className="mt-1 break-words text-[10px] text-muted sm:text-[11px]">{context}</p>
       {showBandScale && <PriceBandScale />}
 
       {open && (
         <div
           id={descriptionId}
           role="tooltip"
-          className="absolute left-0 right-0 top-[calc(100%-0.5rem)] z-20 mt-2 rounded-md border border-border bg-white p-3 text-xs leading-relaxed text-ink shadow-sm"
+          className="absolute left-0 top-[calc(100%-0.5rem)] z-20 mt-2 w-[min(20rem,calc(100vw-2rem))] max-w-[calc(100vw-2rem)] rounded-md border border-border bg-white p-3 text-xs leading-relaxed text-ink shadow-sm sm:right-0 sm:w-auto sm:max-w-none"
         >
           {description}
         </div>
@@ -166,7 +166,7 @@ export default function HeadlineCards({ kpis }: Props) {
   ];
 
   return (
-    <div className="grid gap-3 overflow-visible sm:grid-cols-2 lg:grid-cols-5">
+    <div className="grid min-w-0 gap-3 overflow-visible sm:grid-cols-2 lg:grid-cols-5">
       {cards.map((card) => (
         <Card
           key={card.id}
