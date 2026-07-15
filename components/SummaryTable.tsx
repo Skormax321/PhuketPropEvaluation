@@ -19,7 +19,7 @@ export default function SummaryTable({ rows }: Props) {
         <thead className="border-b border-border bg-[#fafaf9] text-muted">
           <tr>
             <th className="px-3 py-2 font-normal">Уровень</th>
-            <th className="px-3 py-2 font-normal">n</th>
+            <th className="px-3 py-2 font-normal">Выборка</th>
             <th className="px-3 py-2 font-normal">Med $</th>
             <th className="px-3 py-2 font-normal">Med m²</th>
             <th className="px-3 py-2 font-normal">Med $/m²</th>

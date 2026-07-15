@@ -116,7 +116,7 @@ function CohortBlock({ cohort, unit }: { cohort: CohortResult; unit: UnitInput }
   return (
     <div className="rounded-lg border border-border p-4">
       <h3 className="mb-3 text-sm font-medium text-ink">
-        {cohort.label} · n={cohort.summary.n}
+        {cohort.label} · выборка: {cohort.summary.n}
       </h3>
       <div className="flex flex-col gap-4 lg:flex-row">
         {METRICS.map((m) => {

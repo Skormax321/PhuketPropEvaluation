@@ -109,7 +109,7 @@ export default function BenchmarkForm({
       <h2 className="text-sm font-medium text-ink">Параметры юнита</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <label className="grid gap-1 text-sm">
-          <span className="text-muted">Цена, $</span>
+          <span className="text-muted">Цена сейчас, $</span>
           <input
             type="number"
             min={1}
@@ -120,7 +120,7 @@ export default function BenchmarkForm({
           />
         </label>
         <label className="grid gap-1 text-sm">
-          <span className="text-muted">Оригинал / ask, $ (опц.)</span>
+          <span className="text-muted">Оригинальная цена, $ (опционально)</span>
           <input
             type="number"
             min={1}
