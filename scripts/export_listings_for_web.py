@@ -3,43 +3,55 @@
 
 from __future__ import annotations
 
+import csv
 import json
 from collections import Counter
 from pathlib import Path
 
-import pandas as pd
-
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "public" / "data"
 
-COLUMNS = ("district", "price_usd", "price_usd_sqm", "area_sqm", "bedrooms")
+
+def _to_float(value: str | None) -> float | None:
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
 
 
 def load_segment(path: Path) -> list[dict]:
-    df = pd.read_csv(path)
-    for col in COLUMNS[1:]:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
-    df = df.dropna(subset=["price_usd", "area_sqm", "bedrooms"])
-    df = df[df["price_usd"] > 0]
-    df = df[df["area_sqm"] > 0]
-    if "price_usd_sqm" not in df.columns or df["price_usd_sqm"].isna().all():
-        df["price_usd_sqm"] = (df["price_usd"] / df["area_sqm"]).round(0)
-    else:
-        df["price_usd_sqm"] = df["price_usd_sqm"].fillna(df["price_usd"] / df["area_sqm"]).round(0)
-    records = []
-    for _, row in df.iterrows():
-        project_raw = row.get("project")
-        project = str(project_raw).strip() if pd.notna(project_raw) else ""
-        rec: dict = {
-            "district": str(row["district"]),
-            "price_usd": int(round(row["price_usd"])),
-            "price_usd_sqm": int(round(row["price_usd_sqm"])),
-            "area_sqm": float(row["area_sqm"]),
-            "bedrooms": int(row["bedrooms"]),
-        }
-        if project:
-            rec["project"] = project
-        records.append(rec)
+    records: list[dict] = []
+    with path.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            price = _to_float(row.get("price_usd"))
+            area = _to_float(row.get("area_sqm"))
+            bedrooms = _to_float(row.get("bedrooms"))
+            if price is None or area is None or bedrooms is None:
+                continue
+            if price <= 0 or area <= 0:
+                continue
+
+            price_sqm = _to_float(row.get("price_usd_sqm"))
+            if price_sqm is None:
+                price_sqm = price / area
+
+            project = (row.get("project") or "").strip()
+            rec: dict = {
+                "district": str(row.get("district") or ""),
+                "price_usd": int(round(price)),
+                "price_usd_sqm": int(round(price_sqm)),
+                "area_sqm": float(area),
+                "bedrooms": int(bedrooms),
+            }
+            if project:
+                rec["project"] = project
+            records.append(rec)
     return records
 
 
@@ -47,10 +59,7 @@ def district_meta(off_plan: list[dict], ready: list[dict]) -> list[dict]:
     counts: Counter[str] = Counter()
     for row in off_plan + ready:
         counts[row["district"]] += 1
-    return [
-        {"district": d, "count": c}
-        for d, c in counts.most_common()
-    ]
+    return [{"district": d, "count": c} for d, c in counts.most_common()]
 
 
 def projects_index(off_plan: list[dict], ready: list[dict]) -> list[dict]:

@@ -6,6 +6,7 @@ venv/
 
 # Raw data & analysis outputs (not needed for Vercel)
 output/
+raw/
 *.csv
 
 # Next.js

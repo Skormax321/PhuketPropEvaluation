@@ -27,7 +27,7 @@ export default function Home() {
 
       <footer className="mt-12 border-t border-border pt-5 text-xs leading-relaxed text-muted">
         Источник данных: FazWaz. Выборка объявлений о продаже квартир по состоянию на
-        конец мая 2026 года. Информация не является индивидуальной инвестиционной
+        июль 2026 года. Информация не является индивидуальной инвестиционной
         рекомендацией.
       </footer>
     </main>
