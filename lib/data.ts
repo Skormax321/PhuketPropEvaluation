@@ -24,13 +24,16 @@ export interface ListingsData {
 
 let cache: ListingsData | null = null;
 
+/** Пусто = данные из `public/data`. Можно вынести их на CDN/внешний хост. */
+const DATA_BASE_URL = (process.env.NEXT_PUBLIC_DATA_BASE_URL ?? "").replace(/\/$/, "");
+
 export async function loadListingsData(): Promise<ListingsData> {
   if (cache) return cache;
   const [offPlan, ready, districts, projects] = await Promise.all([
-    fetch("/data/off_plan.json").then((r) => r.json()),
-    fetch("/data/ready.json").then((r) => r.json()),
-    fetch("/data/districts.json").then((r) => r.json()),
-    fetch("/data/projects_index.json").then((r) => r.json()),
+    fetch(`${DATA_BASE_URL}/data/off_plan.json`).then((r) => r.json()),
+    fetch(`${DATA_BASE_URL}/data/ready.json`).then((r) => r.json()),
+    fetch(`${DATA_BASE_URL}/data/districts.json`).then((r) => r.json()),
+    fetch(`${DATA_BASE_URL}/data/projects_index.json`).then((r) => r.json()),
   ]);
   cache = { off_plan: offPlan, ready, districts, projects };
   return cache;

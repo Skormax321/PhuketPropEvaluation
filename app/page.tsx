@@ -1,7 +1,13 @@
 import Image from "next/image";
 import CalculatorPage from "@/components/CalculatorPage";
+import LeadGate from "@/components/LeadGate";
+import { hasAccess } from "@/lib/access";
 
-export default function Home() {
+export default async function Home() {
+  if (!(await hasAccess())) {
+    return <LeadGate />;
+  }
+
   return (
     <main className="mx-auto flex min-h-screen max-w-5xl flex-col overflow-x-hidden px-4 py-10">
       <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
