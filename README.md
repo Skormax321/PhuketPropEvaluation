@@ -46,7 +46,7 @@ Environment Variables.
 |------------|-------------|------------|
 | `ACCESS_SECRET` | да | Секрет подписи cookie доступа (`openssl rand -hex 32`) |
 | `CRM_WEBHOOK_URL` | да | URL вебхука CRM |
-| `CRM_WEBHOOK_FORMAT` | нет | `json` (по умолчанию) или `form` |
+| `CRM_WEBHOOK_FORMAT` | нет | `form` (по умолчанию, поля в стиле Tilda) или `json` |
 | `CRM_WEBHOOK_AUTH` | нет | Значение заголовка `Authorization`, если хук закрыт |
 | `TELEGRAM_BOT_TOKEN` | да | Токен бота от @BotFather |
 | `TELEGRAM_CHAT_ID` | да | ID чата для сверки заявок |

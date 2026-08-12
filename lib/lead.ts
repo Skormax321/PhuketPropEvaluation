@@ -77,11 +77,20 @@ export function parseLead(
   };
 }
 
+/**
+ * Тело в формате Tilda-вебхука: поля с заглавной буквы — то, что читают
+ * интеграции `tilda_to_lead`. Дубли в нижнем регистре оставлены для
+ * обработчиков, которые ждут привычные `name`/`phone`/`email`.
+ */
 function toFormBody(payload: LeadPayload): URLSearchParams {
   const params = new URLSearchParams({
+    Name: payload.name,
+    Phone: payload.phone,
+    Email: payload.email,
     name: payload.name,
     phone: payload.phone,
     email: payload.email,
+    formname: payload.source,
     source: payload.source,
     created_at: payload.createdAt,
   });
@@ -93,12 +102,12 @@ function toFormBody(payload: LeadPayload): URLSearchParams {
   return params;
 }
 
-/** POST в вебхук CRM. Формат тела — `CRM_WEBHOOK_FORMAT`: `json` (по умолчанию) или `form`. */
+/** POST в вебхук CRM. Формат тела — `CRM_WEBHOOK_FORMAT`: `form` (по умолчанию) или `json`. */
 export async function sendToCrm(payload: LeadPayload): Promise<void> {
   const url = process.env.CRM_WEBHOOK_URL;
   if (!url) throw new Error("CRM_WEBHOOK_URL не задан");
 
-  const useForm = (process.env.CRM_WEBHOOK_FORMAT ?? "json") === "form";
+  const useForm = (process.env.CRM_WEBHOOK_FORMAT ?? "form") !== "json";
   const headers: Record<string, string> = {
     "Content-Type": useForm
       ? "application/x-www-form-urlencoded"
