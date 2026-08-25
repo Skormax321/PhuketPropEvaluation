@@ -216,12 +216,6 @@
     "count": 124
   },
   {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laya Resort Phuket",
-    "count": 123
-  },
-  {
     "segment": "off_plan",
     "district": "Kamala, Kathu, Phuket",
     "project": "Citygate De Phuket",
@@ -374,6 +368,12 @@
   {
     "segment": "ready",
     "district": "Choeng Thale, Thalang, Phuket",
+    "project": "Laya Resort Phuket",
+    "count": 77
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale, Thalang, Phuket",
     "project": "Kora Beach Resort Phuket",
     "count": 74
   },
@@ -415,15 +415,15 @@
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Sky Park",
+    "district": "Kathu, Kathu, Phuket",
+    "project": "The Origin Kathu-Patong",
     "count": 65
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "The Origin Kathu-Patong",
-    "count": 65
+    "district": "Choeng Thale, Thalang, Phuket",
+    "project": "Sky Park",
+    "count": 64
   },
   {
     "segment": "off_plan",
@@ -493,15 +493,15 @@
   },
   {
     "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "Baan Mai Khao",
+    "district": "Rawai, Phuket Town, Phuket",
+    "project": "The One Naiharn",
     "count": 53
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The One Naiharn",
-    "count": 53
+    "district": "Mai Khao, Thalang, Phuket",
+    "project": "Baan Mai Khao",
+    "count": 52
   },
   {
     "segment": "ready",
@@ -655,12 +655,6 @@
   },
   {
     "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "Mai Khao Beach Condotel",
-    "count": 39
-  },
-  {
-    "segment": "ready",
     "district": "Karon, Phuket Town, Phuket",
     "project": "The Ark At Karon Hill",
     "count": 39
@@ -682,6 +676,12 @@
     "district": "Sakhu, Thalang, Phuket",
     "project": "Sea Heaven Phase 2",
     "count": 38
+  },
+  {
+    "segment": "ready",
+    "district": "Mai Khao, Thalang, Phuket",
+    "project": "Mai Khao Beach Condotel",
+    "count": 37
   },
   {
     "segment": "ready",
@@ -1045,12 +1045,6 @@
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong Tower",
-    "count": 18
-  },
-  {
-    "segment": "ready",
     "district": "Kathu, Kathu, Phuket",
     "project": "D Condo Kathu",
     "count": 18
@@ -1071,6 +1065,12 @@
     "segment": "ready",
     "district": "Choeng Thale, Thalang, Phuket",
     "project": "Aristo 1",
+    "count": 17
+  },
+  {
+    "segment": "ready",
+    "district": "Patong, Kathu, Phuket",
+    "project": "Patong Tower",
     "count": 17
   },
   {
@@ -1165,12 +1165,6 @@
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Privilege",
-    "count": 13
-  },
-  {
-    "segment": "ready",
     "district": "Chalong, Phuket Town, Phuket",
     "project": "NOON Village Tower I",
     "count": 13
@@ -1188,9 +1182,9 @@
     "count": 13
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Petit Tycoon",
+    "segment": "ready",
+    "district": "Patong, Kathu, Phuket",
+    "project": "The Privilege",
     "count": 12
   },
   {
@@ -1234,6 +1228,12 @@
     "district": "Choeng Thale, Thalang, Phuket",
     "project": "Palmyrah Surin Beach Residence",
     "count": 12
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale, Thalang, Phuket",
+    "project": "The Petit Tycoon",
+    "count": 11
   },
   {
     "segment": "off_plan",
@@ -1555,12 +1555,6 @@
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Banyan Tree Beach Residences - Oceanus",
-    "count": 6
-  },
-  {
-    "segment": "off_plan",
     "district": "Rawai, Phuket Town, Phuket",
     "project": "Utopia Apartment Mini 2",
     "count": 6
@@ -1774,6 +1768,12 @@
     "district": "Choeng Thale, Thalang, Phuket",
     "project": "Banyan Tree Beach Residences Sirena",
     "count": 5
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale, Thalang, Phuket",
+    "project": "Banyan Tree Beach Residences - Oceanus",
+    "count": 4
   },
   {
     "segment": "off_plan",
@@ -2065,12 +2065,6 @@
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "not-set",
-    "count": 2
-  },
-  {
-    "segment": "ready",
     "district": "Choeng Thale, Thalang, Phuket",
     "project": "Allamanda 1 Condominium By Cozy Lake",
     "count": 2
@@ -2287,12 +2281,6 @@
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "not-set",
-    "count": 1
-  },
-  {
-    "segment": "ready",
     "district": "Rawai, Phuket Town, Phuket",
     "project": "Oxygen Condominium Rawai",
     "count": 1
@@ -2389,12 +2377,6 @@
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Phuket Golden Ville The Space",
-    "count": 1
-  },
-  {
-    "segment": "ready",
     "district": "Choeng Thale, Thalang, Phuket",
     "project": "Akra Collection Layan 1",
     "count": 1
@@ -2421,12 +2403,6 @@
     "segment": "ready",
     "district": "Patong, Kathu, Phuket",
     "project": "Diamond Condominium Patong",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "JJ & PP",
     "count": 1
   },
   {

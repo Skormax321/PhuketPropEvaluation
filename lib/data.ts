@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Listing, Segment } from "@/lib/benchmark";
+import type { Listing, Market, Segment } from "@/lib/benchmark";
 
 export interface DistrictOption {
   district: string;
@@ -22,34 +22,68 @@ export interface ListingsData {
   projects: ProjectOption[];
 }
 
-let cache: ListingsData | null = null;
+const cache = new Map<Market, ListingsData>();
 
-/** Пусто = данные из `public/data`. Можно вынести их на CDN/внешний хост. */
-const DATA_BASE_URL = (process.env.NEXT_PUBLIC_DATA_BASE_URL ?? "").replace(/\/$/, "");
-
-export async function loadListingsData(): Promise<ListingsData> {
-  if (cache) return cache;
+export async function loadListingsData(market: Market): Promise<ListingsData> {
+  const hit = cache.get(market);
+  if (hit) return hit;
+  /** Пусто = данные из `public/data`. Можно вынести их на CDN/внешний хост. */
+  const DATA_BASE_URL = (process.env.NEXT_PUBLIC_DATA_BASE_URL ?? "").replace(/\/$/, "");
+  const base = `${DATA_BASE_URL}/data/${market}`;
   const [offPlan, ready, districts, projects] = await Promise.all([
-    fetch(`${DATA_BASE_URL}/data/off_plan.json`).then((r) => r.json()),
-    fetch(`${DATA_BASE_URL}/data/ready.json`).then((r) => r.json()),
-    fetch(`${DATA_BASE_URL}/data/districts.json`).then((r) => r.json()),
-    fetch(`${DATA_BASE_URL}/data/projects_index.json`).then((r) => r.json()),
+    fetch(`${base}/off_plan.json`).then((r) => {
+      if (!r.ok) throw new Error(`Failed to load ${base}/off_plan.json`);
+      return r.json();
+    }),
+    fetch(`${base}/ready.json`).then((r) => {
+      if (!r.ok) throw new Error(`Failed to load ${base}/ready.json`);
+      return r.json();
+    }),
+    fetch(`${base}/districts.json`).then((r) => {
+      if (!r.ok) throw new Error(`Failed to load ${base}/districts.json`);
+      return r.json();
+    }),
+    fetch(`${base}/projects_index.json`).then((r) => {
+      if (!r.ok) throw new Error(`Failed to load ${base}/projects_index.json`);
+      return r.json();
+    }),
   ]);
-  cache = { off_plan: offPlan, ready, districts, projects };
-  return cache;
+  const data: ListingsData = {
+    off_plan: offPlan,
+    ready,
+    districts,
+    projects,
+  };
+  cache.set(market, data);
+  return data;
 }
 
-export function useListingsData() {
+export function useListingsData(market: Market) {
   const [data, setData] = useState<ListingsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    loadListingsData()
-      .then(setData)
-      .catch((e) => setError(String(e)))
-      .finally(() => setLoading(false));
-  }, []);
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+    loadListingsData(market)
+      .then((d) => {
+        if (!cancelled) setData(d);
+      })
+      .catch((e) => {
+        if (!cancelled) {
+          setData(null);
+          setError(String(e));
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [market]);
 
   return { data, loading, error };
 }

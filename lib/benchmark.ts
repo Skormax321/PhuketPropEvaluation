@@ -1,4 +1,10 @@
 export type Segment = "off_plan" | "ready";
+export type Market = "phuket" | "pattaya";
+
+export const MARKET_LABELS: Record<Market, string> = {
+  phuket: "Пхукет",
+  pattaya: "Паттайя",
+};
 
 export interface Listing {
   district: string;
@@ -16,6 +22,7 @@ export interface UnitInput {
   bedrooms: number;
   district: string;
   segment: Segment;
+  market: Market;
   project?: string;
 }
 
@@ -54,13 +61,14 @@ export interface BenchmarkResult {
 }
 
 export interface HeadlineKpis {
-  priceVsPhuketPct: number;
+  priceVsMarketPct: number;
   priceVsDistrictPct: number;
-  priceSqmVsPhuketPct: number;
+  priceSqmVsMarketPct: number;
   priceSqmVsDistrictPct: number;
   shareWithinBandPct: number;
-  phuketN: number;
+  marketN: number;
   districtN: number;
+  marketLabel: string;
   districtLabel: string;
   bedrooms: number;
 }
@@ -127,11 +135,14 @@ export function trimRange(series: number[], unitVal: number): [number, number] {
 }
 
 export function cohortLabels(name: string): string {
-  const map: Record<string, string> = {
-    phuket_off_plan: "Весь Phuket (off-plan)",
-    phuket_ready: "Весь Phuket (ready)",
-  };
-  if (map[name]) return map[name];
+  const marketMatch = name.match(
+    /^(phuket|pattaya)_(off_plan|ready)_(\d+)br$/,
+  );
+  if (marketMatch) {
+    const label = MARKET_LABELS[marketMatch[1] as Market];
+    const seg = marketMatch[2] === "off_plan" ? "off-plan" : "ready";
+    return `Весь ${label} (${seg})`;
+  }
   if (name.includes("_project_")) {
     const slug = name.replace(/_project_\d+br$/, "").replace(/_/g, " ");
     const br = name.match(/(\d+)br$/)?.[1];
@@ -154,9 +165,10 @@ export function buildCohorts(
   const br = unit.bedrooms;
   const suffix = `${br}br`;
   const segTag = unit.segment;
+  const market = unit.market;
   const base = listings.filter((r) => r.bedrooms === br);
   const levels: Record<string, Listing[]> = {
-    [`phuket_${segTag}_${suffix}`]: base,
+    [`${market}_${segTag}_${suffix}`]: base,
   };
 
   const districtKey = districtShort(unit.district);
@@ -260,21 +272,24 @@ export function computeHeadlineKpis(result: BenchmarkResult): HeadlineKpis {
   const { unit, cohorts } = result;
   const suffix = `${unit.bedrooms}br`;
   const dslug = districtSlug(unit.district);
-  const phuket = cohorts.find((c) => c.name === `phuket_${unit.segment}_${suffix}`);
+  const marketCohort = cohorts.find(
+    (c) => c.name === `${unit.market}_${unit.segment}_${suffix}`,
+  );
   const district = cohorts.find((c) => c.name === `${dslug}_${suffix}`);
 
-  const phuketSummary = phuket?.summary;
+  const marketSummary = marketCohort?.summary;
   const districtSummary = district?.summary;
   const districtListings = district?.listings ?? [];
 
   return {
-    priceVsPhuketPct: phuketSummary?.priceVsMedianPct ?? NaN,
+    priceVsMarketPct: marketSummary?.priceVsMedianPct ?? NaN,
     priceVsDistrictPct: districtSummary?.priceVsMedianPct ?? NaN,
-    priceSqmVsPhuketPct: phuketSummary?.priceSqmVsMedianPct ?? NaN,
+    priceSqmVsMarketPct: marketSummary?.priceSqmVsMedianPct ?? NaN,
     priceSqmVsDistrictPct: districtSummary?.priceSqmVsMedianPct ?? NaN,
     shareWithinBandPct: shareWithinPriceBand(districtListings, unit.priceUsd),
-    phuketN: phuketSummary?.n ?? 0,
+    marketN: marketSummary?.n ?? 0,
     districtN: districtSummary?.n ?? 0,
+    marketLabel: MARKET_LABELS[unit.market],
     districtLabel: districtShort(unit.district),
     bedrooms: unit.bedrooms,
   };

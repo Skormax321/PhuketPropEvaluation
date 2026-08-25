@@ -7,12 +7,23 @@ import ExportButtons from "@/components/ExportButtons";
 import HeadlineCards from "@/components/HeadlineCards";
 import ProjectSection from "@/components/ProjectSection";
 import SummaryTable from "@/components/SummaryTable";
-import { computeHeadlineKpis, runBenchmark, type UnitInput } from "@/lib/benchmark";
+import {
+  computeHeadlineKpis,
+  runBenchmark,
+  type Market,
+  type UnitInput,
+} from "@/lib/benchmark";
 import { getListingsForSegment, useListingsData } from "@/lib/data";
 
 export default function CalculatorPage() {
-  const { data, loading, error } = useListingsData();
+  const [market, setMarket] = useState<Market>("phuket");
+  const { data, loading, error } = useListingsData(market);
   const [unit, setUnit] = useState<UnitInput | null>(null);
+
+  const handleMarketChange = (next: Market) => {
+    setMarket(next);
+    setUnit(null);
+  };
 
   const result = useMemo(() => {
     if (!data || !unit) return null;
@@ -25,7 +36,7 @@ export default function CalculatorPage() {
     [result],
   );
 
-  if (loading) {
+  if (loading && !data) {
     return <p className="text-sm text-muted">Загрузка данных рынка…</p>;
   }
   if (error || !data) {
@@ -39,8 +50,10 @@ export default function CalculatorPage() {
   return (
     <div className="grid min-w-0 gap-8">
       <BenchmarkForm
+        market={market}
         districts={data.districts}
         projects={data.projects}
+        onMarketChange={handleMarketChange}
         onSubmit={setUnit}
         disabled={loading}
       />

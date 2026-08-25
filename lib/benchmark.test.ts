@@ -27,6 +27,7 @@ const unit: UnitInput = {
   bedrooms: 1,
   district: "Karon, Phuket Town, Phuket",
   segment: "ready",
+  market: "phuket",
 };
 
 const levels = buildCohorts(karonListings, unit);
@@ -44,8 +45,8 @@ if (result.cohorts.length !== 3) {
   throw new Error(`expected 3 cohorts, got ${result.cohorts.length}`);
 }
 
-const phuket = result.cohorts.find((c) => c.name.startsWith("phuket_"));
-if (!phuket || phuket.summary.n !== 4) {
+const marketCohort = result.cohorts.find((c) => c.name.startsWith("phuket_"));
+if (!marketCohort || marketCohort.summary.n !== 4) {
   throw new Error("phuket cohort should have 4 listings");
 }
 
@@ -63,11 +64,36 @@ if (shareWithinPriceBand(bandListings, 137000) !== 66.7) {
 }
 
 const kpis = computeHeadlineKpis(result);
-if (!Number.isFinite(kpis.priceVsPhuketPct)) {
-  throw new Error("computeHeadlineKpis should return phuket price discount");
+if (!Number.isFinite(kpis.priceVsMarketPct)) {
+  throw new Error("computeHeadlineKpis should return market price discount");
+}
+if (kpis.marketLabel !== "Пхукет") {
+  throw new Error(`marketLabel expected Пхукет, got ${kpis.marketLabel}`);
 }
 if (kpis.districtN !== 3) {
   throw new Error(`districtN expected 3, got ${kpis.districtN}`);
+}
+
+const pattayaUnit: UnitInput = {
+  ...unit,
+  market: "pattaya",
+  district: "Nong Prue, Pattaya",
+};
+const pattayaListings: Listing[] = [
+  { district: "Nong Prue, Pattaya", price_usd: 100000, price_usd_sqm: 3000, area_sqm: 33, bedrooms: 1 },
+  { district: "Nong Prue, Pattaya", price_usd: 150000, price_usd_sqm: 4000, area_sqm: 38, bedrooms: 1 },
+  { district: "Na Kluea, Pattaya", price_usd: 180000, price_usd_sqm: 4500, area_sqm: 40, bedrooms: 1 },
+];
+const pattayaResult = runBenchmark(pattayaListings, pattayaUnit);
+const pattayaCohort = pattayaResult.cohorts.find((c) =>
+  c.name.startsWith("pattaya_"),
+);
+if (!pattayaCohort || pattayaCohort.summary.n !== 3) {
+  throw new Error("pattaya cohort should have 3 listings");
+}
+const pattayaKpis = computeHeadlineKpis(pattayaResult);
+if (pattayaKpis.marketLabel !== "Паттайя") {
+  throw new Error(`marketLabel expected Паттайя, got ${pattayaKpis.marketLabel}`);
 }
 
 const projectListings: Listing[] = [

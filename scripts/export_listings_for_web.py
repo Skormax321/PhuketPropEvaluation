@@ -3,13 +3,16 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
+import os
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = ROOT / "public" / "data"
+DATA_ROOT = ROOT / "public" / "data"
+MARKETS = ("phuket", "pattaya")
 
 
 def _to_float(value: str | None) -> float | None:
@@ -75,33 +78,47 @@ def projects_index(off_plan: list[dict], ready: list[dict]) -> list[dict]:
     ]
 
 
-def main() -> None:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    off_plan = load_segment(ROOT / "output" / "phuket_off_plan.csv")
-    ready = load_segment(ROOT / "output" / "phuket_ready.csv")
+def export_market(market: str) -> None:
+    out_dir = DATA_ROOT / market
+    out_dir.mkdir(parents=True, exist_ok=True)
+    off_plan = load_segment(ROOT / "output" / f"{market}_off_plan.csv")
+    ready = load_segment(ROOT / "output" / f"{market}_ready.csv")
     districts = district_meta(off_plan, ready)
     projects = projects_index(off_plan, ready)
 
-    (OUT_DIR / "off_plan.json").write_text(
+    (out_dir / "off_plan.json").write_text(
         json.dumps(off_plan, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (OUT_DIR / "ready.json").write_text(
+    (out_dir / "ready.json").write_text(
         json.dumps(ready, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (OUT_DIR / "districts.json").write_text(
+    (out_dir / "districts.json").write_text(
         json.dumps(districts, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    (OUT_DIR / "projects_index.json").write_text(
+    (out_dir / "projects_index.json").write_text(
         json.dumps(projects, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     print(
-        f"Wrote {len(off_plan)} off-plan, {len(ready)} ready, "
-        f"{len(districts)} districts, {len(projects)} projects → {OUT_DIR}"
+        f"[{market}] Wrote {len(off_plan)} off-plan, {len(ready)} ready, "
+        f"{len(districts)} districts, {len(projects)} projects → {out_dir}"
     )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--market",
+        choices=[*MARKETS, "all"],
+        default=os.environ.get("MARKET", "all"),
+    )
+    args = parser.parse_args()
+    markets = MARKETS if args.market == "all" else (args.market,)
+    for market in markets:
+        export_market(market)
 
 
 if __name__ == "__main__":

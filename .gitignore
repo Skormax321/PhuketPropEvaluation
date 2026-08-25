@@ -24,3 +24,8 @@ out
 
 # TS
 *.tsbuildinfo
+
+.vercel
+.env*
+
+raw/

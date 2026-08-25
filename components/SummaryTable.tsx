@@ -15,10 +15,10 @@ export default function SummaryTable({ rows }: Props) {
 
   return (
     <div className="max-w-full overflow-x-auto rounded-lg border border-border">
-      <table className="w-max min-w-full text-left text-sm sm:min-w-[720px]">
+      <table className="w-full text-left text-sm">
         <thead className="border-b border-border bg-[#fafaf9] text-muted">
           <tr>
-            <th className="min-w-[160px] whitespace-normal px-3 py-2 font-normal">Уровень</th>
+            <th className="px-3 py-2 font-normal">Уровень</th>
             <th className="whitespace-nowrap px-3 py-2 font-normal">Выборка</th>
             <th className="whitespace-nowrap px-3 py-2 font-normal">Med $</th>
             <th className="whitespace-nowrap px-3 py-2 font-normal">Med m²</th>
@@ -31,7 +31,7 @@ export default function SummaryTable({ rows }: Props) {
         <tbody>
           {visible.map((r) => (
             <tr key={r.cohort} className="border-b border-border last:border-0">
-              <td className="min-w-[160px] whitespace-normal px-3 py-2 text-ink">{r.label}</td>
+              <td className="px-3 py-2 text-ink">{r.label}</td>
               <td className="whitespace-nowrap px-3 py-2">{r.n}</td>
               <td className="whitespace-nowrap px-3 py-2">{fmtMoneyUsd(r.cohortMedianPriceUsd)}</td>
               <td className="whitespace-nowrap px-3 py-2">{fmtNumber(r.cohortMedianAreaSqm, 0)}</td>

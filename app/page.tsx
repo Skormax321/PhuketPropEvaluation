@@ -14,15 +14,16 @@ export default async function Home() {
         <Image
           src="/tranio-logo.png"
           alt="Tranio"
-          width={172}
-          height={47}
+          width={287}
+          height={79}
           priority
-          className="h-auto w-[144px] max-w-[144px] shrink-0 sm:h-11 sm:w-[172px] sm:max-w-[172px]"
+          className="h-9 w-auto max-w-full shrink-0 object-contain sm:h-11"
         />
         <div className="min-w-0">
           <h1 className="text-xl font-medium text-ink">Калькулятор позиции юнита</h1>
           <p className="mt-1 text-sm text-muted">
-            Сравнение цены, площади и $/m² с листингами квартир FazWaz (Phuket).
+            Сравнение цены, площади и $/m² с листингами квартир FazWaz (Пхукет и
+            Паттайя).
           </p>
         </div>
       </header>
@@ -32,9 +33,8 @@ export default async function Home() {
       </div>
 
       <footer className="mt-12 border-t border-border pt-5 text-xs leading-relaxed text-muted">
-        Источник данных: FazWaz. Выборка объявлений о продаже квартир по состоянию на
-        июль 2026 года. Информация не является индивидуальной инвестиционной
-        рекомендацией.
+        Источник данных: FazWaz, выборка от августа 2026 года. Информация не
+        является индивидуальной инвестиционной рекомендацией.
       </footer>
     </main>
   );

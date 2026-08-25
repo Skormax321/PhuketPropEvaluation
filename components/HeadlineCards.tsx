@@ -123,12 +123,11 @@ export default function HeadlineCards({ kpis }: Props) {
 
   const cards: CardConfig[] = [
     {
-      id: "price-phuket",
-      title: "Дисконт цены vs Phuket",
-      value: fmtPct(kpis.priceVsPhuketPct),
-      context: `Phuket · ${br} · выборка: ${kpis.phuketN}`,
-      description:
-        "Насколько цена юнита отличается от медианной цены всех объявлений с соответствующей планировкой на рынке Пхукета.",
+      id: "price-market",
+      title: `Дисконт цены vs ${kpis.marketLabel}`,
+      value: fmtPct(kpis.priceVsMarketPct),
+      context: `${kpis.marketLabel} · ${br} · выборка: ${kpis.marketN}`,
+      description: `Насколько цена юнита отличается от медианной цены всех объявлений с соответствующей планировкой на рынке ${kpis.marketLabel}.`,
     },
     {
       id: "price-district",
@@ -139,12 +138,11 @@ export default function HeadlineCards({ kpis }: Props) {
         "Насколько цена юнита отличается от медианной цены всех объявлений с соответствующей планировкой в выбранном районе.",
     },
     {
-      id: "sqm-phuket",
-      title: "Дисконт $/m² vs Phuket",
-      value: fmtPct(kpis.priceSqmVsPhuketPct),
-      context: `Phuket · ${br} · выборка: ${kpis.phuketN}`,
-      description:
-        "Насколько цена квадратного метра юнита отличается от медианной цены квадратного метра всех объявлений с соответствующей планировкой на рынке Пхукета.",
+      id: "sqm-market",
+      title: `Дисконт $/m² vs ${kpis.marketLabel}`,
+      value: fmtPct(kpis.priceSqmVsMarketPct),
+      context: `${kpis.marketLabel} · ${br} · выборка: ${kpis.marketN}`,
+      description: `Насколько цена квадратного метра юнита отличается от медианной цены квадратного метра всех объявлений с соответствующей планировкой на рынке ${kpis.marketLabel}.`,
     },
     {
       id: "sqm-district",

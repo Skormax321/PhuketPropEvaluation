@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { Segment, UnitInput } from "@/lib/benchmark";
+import { useEffect, useMemo, useState } from "react";
+import type { Market, Segment, UnitInput } from "@/lib/benchmark";
+import { MARKET_LABELS } from "@/lib/benchmark";
 import type { DistrictOption, ProjectOption } from "@/lib/data";
 
 export interface BenchmarkFormValues {
@@ -15,9 +16,11 @@ export interface BenchmarkFormValues {
 }
 
 interface Props {
+  market: Market;
   districts: DistrictOption[];
   projects: ProjectOption[];
   initial?: Partial<BenchmarkFormValues>;
+  onMarketChange: (market: Market) => void;
   onSubmit: (unit: UnitInput) => void;
   disabled?: boolean;
 }
@@ -27,12 +30,15 @@ const defaultValues: BenchmarkFormValues = {
   originalPriceUsd: "",
   areaSqm: "30",
   bedrooms: "1",
-  district: "Karon, Phuket Town, Phuket",
+  district: "",
   segment: "ready",
   project: "",
 };
 
-export function parseForm(values: BenchmarkFormValues): UnitInput | null {
+export function parseForm(
+  values: BenchmarkFormValues,
+  market: Market,
+): UnitInput | null {
   const priceUsd = Number(values.priceUsd);
   const areaSqm = Number(values.areaSqm);
   const bedrooms = Number(values.bedrooms);
@@ -44,7 +50,10 @@ export function parseForm(values: BenchmarkFormValues): UnitInput | null {
   if (!Number.isFinite(priceUsd) || priceUsd <= 0) return null;
   if (!Number.isFinite(areaSqm) || areaSqm <= 0) return null;
   if (!Number.isFinite(bedrooms) || bedrooms < 0) return null;
-  if (originalPriceUsd != null && (!Number.isFinite(originalPriceUsd) || originalPriceUsd <= 0)) {
+  if (
+    originalPriceUsd != null &&
+    (!Number.isFinite(originalPriceUsd) || originalPriceUsd <= 0)
+  ) {
     return null;
   }
 
@@ -55,14 +64,17 @@ export function parseForm(values: BenchmarkFormValues): UnitInput | null {
     bedrooms,
     district: values.district,
     segment: values.segment,
+    market,
     project: projectRaw || undefined,
   };
 }
 
 export default function BenchmarkForm({
+  market,
   districts,
   projects,
   initial,
+  onMarketChange,
   onSubmit,
   disabled,
 }: Props) {
@@ -71,6 +83,14 @@ export default function BenchmarkForm({
     ...initial,
     district: initial?.district ?? districts[0]?.district ?? "",
   });
+
+  useEffect(() => {
+    setValues((prev) => ({
+      ...prev,
+      district: districts[0]?.district ?? "",
+      project: "",
+    }));
+  }, [market, districts]);
 
   const projectOptions = useMemo(
     () =>
@@ -82,7 +102,7 @@ export default function BenchmarkForm({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const unit = parseForm(values);
+    const unit = parseForm(values, market);
     if (unit) onSubmit(unit);
   };
 
@@ -106,6 +126,22 @@ export default function BenchmarkForm({
       onSubmit={handleSubmit}
       className="grid gap-4 rounded-lg border border-border p-5 bg-white"
     >
+      <label className="grid max-w-xs gap-1 text-sm">
+        <span className="text-muted">Рынок</span>
+        <select
+          value={market}
+          onChange={(e) => onMarketChange(e.target.value as Market)}
+          className="rounded border border-border px-3 py-2 text-ink"
+          disabled={disabled}
+        >
+          {(Object.keys(MARKET_LABELS) as Market[]).map((m) => (
+            <option key={m} value={m}>
+              {MARKET_LABELS[m]}
+            </option>
+          ))}
+        </select>
+      </label>
+
       <h2 className="text-sm font-medium text-ink">Параметры юнита</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <label className="grid gap-1 text-sm">
@@ -157,7 +193,7 @@ export default function BenchmarkForm({
           </select>
         </label>
         <label className="grid gap-1 text-sm">
-          <span className="text-muted">Рынок</span>
+          <span className="text-muted">Сегмент</span>
           <select
             value={values.segment}
             onChange={(e) => set("segment", e.target.value as Segment)}

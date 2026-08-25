@@ -1,63 +1,48 @@
 # Калькулятор позиции юнита
 
+Рынки: **Пхукет** и **Паттайя**. Данные — slim JSON в `public/data/{market}/`.
+
+### Обновление данных
+
+Сырые CSV FazWaz (WebScraper) рядом с репозиторием (не в git).
+
+```bash
+python3 scripts/clean_phuket_listings.py --market all   # или phuket / pattaya
+python3 scripts/export_listings_for_web.py --market all
+```
+
+Курс: **32.41 THB/USD**.
+
+#### QC при clean
+
+- Dedupe по `unit_id` из `unit-info__description-title href` (`-u(\d+)`)
+- **Без** content-dedupe по цене/площади
+- `20 ≤ area ≤ 900`, `bedrooms ≤ 4`
+- `20000 ≤ THB/m² ≤ 500000`
+- Отброс `project` пустой/`not-set`, district ровно `Pattaya`/`Phuket`
+- Типы: Condo / Apartment / Penthouse
+
+#### Маппинг сырых колонок
+
+| Поле | Сырой столбец |
+|------|---------------|
+| `project` | `unit-name` |
+| `district` | `location-unit` |
+| `price_usd` | `price-tag` → `/ 32.41` |
+| `price_usd_sqm` | `dynamic-tooltip` → `/ 32.41` |
+| `area_sqm` | `dynamic-tooltip 2` |
+| `bedrooms` | title (`Studio` → 0) |
+
+Pattaya off-plan: `Pattaya-offplan-1.csv` + `Pattaya-offplan-2.csv`.  
+Промежуточные CSV: `output/{market}_off_plan.csv`, `output/{market}_ready.csv`.
+
 ## Структура
 
 | Путь | Назначение |
 |------|------------|
-| `public/data/off_plan.json` | Листинги off-plan |
-| `public/data/ready.json` | Листинги ready |
-| `public/data/districts.json` | Районы для dropdown |
-| `public/data/projects_index.json` | Проекты для dropdown |
-| `scripts/clean_phuket_listings.py` | Сырой FazWaz CSV → `output/*.csv` |
-| `scripts/export_listings_for_web.py` | `output/*.csv` → `public/data/*.json` |
-| `lib/benchmark.ts` | Логика когорт и percentiles |
-| `components/` | Форма, таблица, графики, CSV |
-| `components/LeadGate.tsx` | Экран сбора контактов перед калькулятором |
-| `app/api/lead/route.ts` | Приём заявки: вебхук CRM + Telegram |
-| `lib/lead.ts` | Валидация лида и доставка в каналы |
-| `lib/access.ts` | Подписанная cookie доступа |
-
-## Лид-форма перед калькулятором
-
-`app/page.tsx` на сервере проверяет cookie `ppe_access`. Если её нет — показывается
-экран `LeadGate` с формой (имя, телефон/WhatsApp, email). После успешной отправки
-`POST /api/lead`:
-
-1. заявка уходит в вебхук CRM и в Telegram-чат (параллельно, таймаут 8 с);
-2. в ответе ставится подписанная HMAC cookie на 30 дней;
-3. `router.refresh()` перерисовывает страницу и открывает калькулятор.
-
-Детали:
-
-- заявка считается принятой, если сработал **хотя бы один** канал; если все
-  настроенные каналы упали — пользователь видит ошибку, а лид пишется в лог рантайма;
-- если каналы не настроены вовсе, доступ выдаётся, а лид пишется только в лог;
-- вместе с контактами передаются `utm_*`, `page_url` и `referrer`;
-- есть honeypot-поле и rate limit 5 заявок / 10 минут на IP.
-
-Гейт мягкий: файлы `public/data/*.json` остаются доступными по прямой ссылке.
-
-## Переменные окружения
-
-Скопируйте `.env.example` в `.env.local` (локально) или задайте в Vercel → Settings →
-Environment Variables.
-
-| Переменная | Обязательна | Назначение |
-|------------|-------------|------------|
-| `ACCESS_SECRET` | да | Секрет подписи cookie доступа (`openssl rand -hex 32`) |
-| `CRM_WEBHOOK_URL` | да | URL вебхука CRM |
-| `CRM_WEBHOOK_FORMAT` | нет | `form` (по умолчанию, поля в стиле Tilda) или `json` |
-| `CRM_WEBHOOK_AUTH` | нет | Значение заголовка `Authorization`, если хук закрыт |
-| `TELEGRAM_BOT_TOKEN` | да | Токен бота от @BotFather |
-| `TELEGRAM_CHAT_ID` | да | ID чата для сверки заявок |
-| `TELEGRAM_THREAD_ID` | нет | ID топика в супергруппе с темами |
-| `LEAD_SOURCE` | нет | Метка источника в заявке |
-
-Бот должен быть добавлен в чат; `TELEGRAM_CHAT_ID` для групп начинается с `-100`.
-
-## Разработка
-
-```bash
-npm ci
-npm run dev
-```
+| `public/data/phuket/` | JSON листингов Пхукет |
+| `public/data/pattaya/` | JSON листингов Паттайя |
+| `scripts/clean_phuket_listings.py` | Raw → `output/*.csv` |
+| `scripts/export_listings_for_web.py` | CSV → `public/data/{market}/` |
+| `lib/benchmark.ts` | Когорты и percentiles |
+| `components/` | Форма, таблица, графики |
