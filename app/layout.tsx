@@ -8,8 +8,8 @@ const golos = Golos_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Калькулятор позиции юнита — Пхукет и Паттайя",
-  description: "Сравнение юнита с рынком Пхукет / Паттайя (off-plan и ready)",
+  title: "Thailand Unit Benchmark",
+  description: "Сравнение юнита с рынками Пхукета и Паттайи",
 };
 
 export default function RootLayout({
