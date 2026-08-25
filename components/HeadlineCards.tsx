@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import type { HeadlineKpis } from "@/lib/benchmark";
 import { fmtPct } from "@/lib/format";
 
@@ -43,59 +43,35 @@ function Card({
   context,
   description,
   showBandScale,
+  open,
+  onToggle,
 }: {
   title: string;
   value: string;
   context: string;
   description: string;
   showBandScale?: boolean;
+  open: boolean;
+  onToggle: () => void;
 }) {
-  const [open, setOpen] = useState(false);
-  const rootRef = useRef<HTMLDivElement>(null);
   const descriptionId = useId();
-
-  useEffect(() => {
-    if (!open) return;
-
-    const onPointerDown = (event: PointerEvent) => {
-      if (!rootRef.current?.contains(event.target as Node)) {
-        setOpen(false);
-      }
-    };
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
-    };
-
-    document.addEventListener("pointerdown", onPointerDown);
-    document.addEventListener("keydown", onKeyDown);
-    return () => {
-      document.removeEventListener("pointerdown", onPointerDown);
-      document.removeEventListener("keydown", onKeyDown);
-    };
-  }, [open]);
 
   return (
     <div
-      ref={rootRef}
-      className="relative z-10 min-w-0 overflow-visible rounded-lg border border-border bg-white p-3 sm:p-4"
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
+      className={`relative min-w-0 overflow-visible rounded-lg border border-border bg-white p-3 sm:p-4 ${
+        open ? "z-50" : "z-10"
+      }`}
     >
       <div className="flex min-w-0 items-start justify-between gap-2">
         <p className="min-w-0 break-words text-xs text-muted">{title}</p>
         <button
           type="button"
+          data-kpi-help=""
           className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-border text-[11px] text-muted hover:border-ink hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
           aria-expanded={open}
           aria-controls={descriptionId}
           aria-label={`Пояснение: ${title}`}
-          onClick={() => setOpen((prev) => !prev)}
-          onFocus={() => setOpen(true)}
-          onBlur={(event) => {
-            if (!rootRef.current?.contains(event.relatedTarget as Node)) {
-              setOpen(false);
-            }
-          }}
+          onClick={onToggle}
         >
           ?
         </button>
@@ -109,7 +85,7 @@ function Card({
         <div
           id={descriptionId}
           role="tooltip"
-          className="absolute left-0 top-[calc(100%-0.5rem)] z-20 mt-2 w-[min(20rem,calc(100vw-2rem))] max-w-[calc(100vw-2rem)] rounded-md border border-border bg-white p-3 text-xs leading-relaxed text-ink shadow-sm sm:right-0 sm:w-auto sm:max-w-none"
+          className="mt-3 rounded-md border border-border bg-white p-3 text-xs leading-relaxed text-ink shadow-sm sm:absolute sm:left-0 sm:right-0 sm:top-[calc(100%-0.5rem)] sm:z-20 sm:mt-2 sm:w-auto sm:max-w-none"
         >
           {description}
         </div>
@@ -120,6 +96,27 @@ function Card({
 
 export default function HeadlineCards({ kpis }: Props) {
   const br = brLabel(kpis.bedrooms);
+  const [openId, setOpenId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!openId) return;
+
+    const onPointerDown = (event: PointerEvent) => {
+      const target = event.target as Element | null;
+      if (target?.closest("[data-kpi-help]")) return;
+      setOpenId(null);
+    };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpenId(null);
+    };
+
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [openId]);
 
   const cards: CardConfig[] = [
     {
@@ -173,6 +170,10 @@ export default function HeadlineCards({ kpis }: Props) {
           context={card.context}
           description={card.description}
           showBandScale={card.showBandScale}
+          open={openId === card.id}
+          onToggle={() =>
+            setOpenId((prev) => (prev === card.id ? null : card.id))
+          }
         />
       ))}
     </div>
