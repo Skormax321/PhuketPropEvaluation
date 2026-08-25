@@ -1,9 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  font-family: var(--font-golos), sans-serif;
-  color: #26251e;
-  background: #ffffff;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-golos), sans-serif;
+  color: #26251e;
+  background: #ffffff;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+html {
+  overflow-x: clip;
+  max-width: 100%;
+}

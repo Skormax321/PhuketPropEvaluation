@@ -35,6 +35,9 @@ const defaultValues: BenchmarkFormValues = {
   project: "",
 };
 
+const fieldClass =
+  "box-border w-full min-w-0 max-w-full rounded border border-border px-3 py-2 text-ink";
+
 export function parseForm(
   values: BenchmarkFormValues,
   market: Market,
@@ -124,14 +127,14 @@ export default function BenchmarkForm({
   return (
     <form
       onSubmit={handleSubmit}
-      className="grid gap-4 rounded-lg border border-border p-5 bg-white"
+      className="box-border grid w-full min-w-0 max-w-full gap-4 rounded-lg border border-border bg-white p-4 sm:p-5"
     >
-      <label className="grid max-w-xs gap-1 text-sm">
+      <label className="grid w-full min-w-0 max-w-xs gap-1 text-sm">
         <span className="text-muted">Рынок</span>
         <select
           value={market}
           onChange={(e) => onMarketChange(e.target.value as Market)}
-          className="rounded border border-border px-3 py-2 text-ink"
+          className={fieldClass}
           disabled={disabled}
         >
           {(Object.keys(MARKET_LABELS) as Market[]).map((m) => (
@@ -143,8 +146,8 @@ export default function BenchmarkForm({
       </label>
 
       <h2 className="text-sm font-medium text-ink">Параметры юнита</h2>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <label className="grid gap-1 text-sm">
+      <div className="grid w-full min-w-0 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <label className="grid min-w-0 gap-1 text-sm">
           <span className="text-muted">Цена сейчас, $</span>
           <input
             type="number"
@@ -152,21 +155,21 @@ export default function BenchmarkForm({
             required
             value={values.priceUsd}
             onChange={(e) => set("priceUsd", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           />
         </label>
-        <label className="grid gap-1 text-sm">
+        <label className="grid min-w-0 gap-1 text-sm">
           <span className="text-muted">Оригинальная цена, $ (опционально)</span>
           <input
             type="number"
             min={1}
             value={values.originalPriceUsd}
             onChange={(e) => set("originalPriceUsd", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
             placeholder="165000"
           />
         </label>
-        <label className="grid gap-1 text-sm">
+        <label className="grid min-w-0 gap-1 text-sm">
           <span className="text-muted">Площадь, m²</span>
           <input
             type="number"
@@ -175,15 +178,15 @@ export default function BenchmarkForm({
             required
             value={values.areaSqm}
             onChange={(e) => set("areaSqm", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           />
         </label>
-        <label className="grid gap-1 text-sm">
+        <label className="grid min-w-0 gap-1 text-sm">
           <span className="text-muted">Спальни</span>
           <select
             value={values.bedrooms}
             onChange={(e) => set("bedrooms", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           >
             {[0, 1, 2, 3].map((n) => (
               <option key={n} value={n}>
@@ -192,24 +195,24 @@ export default function BenchmarkForm({
             ))}
           </select>
         </label>
-        <label className="grid gap-1 text-sm">
+        <label className="grid min-w-0 gap-1 text-sm">
           <span className="text-muted">Сегмент</span>
           <select
             value={values.segment}
             onChange={(e) => set("segment", e.target.value as Segment)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           >
             <option value="ready">Ready (вторичка)</option>
             <option value="off_plan">Off-plan</option>
           </select>
         </label>
-        <label className="grid gap-1 text-sm sm:col-span-2 lg:col-span-1">
+        <label className="grid min-w-0 gap-1 text-sm sm:col-span-2 lg:col-span-1">
           <span className="text-muted">Район</span>
           <select
             required
             value={values.district}
             onChange={(e) => set("district", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           >
             {districts.map((d) => (
               <option key={d.district} value={d.district}>
@@ -218,12 +221,12 @@ export default function BenchmarkForm({
             ))}
           </select>
         </label>
-        <label className="grid gap-1 text-sm sm:col-span-2">
+        <label className="grid min-w-0 gap-1 text-sm sm:col-span-2 lg:col-span-3">
           <span className="text-muted">Проект (опц.)</span>
           <select
             value={values.project}
             onChange={(e) => set("project", e.target.value)}
-            className="rounded border border-border px-3 py-2 text-ink"
+            className={fieldClass}
           >
             <option value="">— не выбран —</option>
             {projectOptions.map((p) => (
@@ -237,7 +240,7 @@ export default function BenchmarkForm({
       <button
         type="submit"
         disabled={disabled}
-        className="w-fit rounded bg-ink px-5 py-2 text-sm text-white disabled:opacity-50"
+        className="w-fit max-w-full rounded bg-ink px-5 py-2 text-sm text-white disabled:opacity-50"
       >
         Сравнить с рынком
       </button>

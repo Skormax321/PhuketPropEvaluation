@@ -9,8 +9,8 @@ export default async function Home() {
   }
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-5xl flex-col overflow-x-hidden px-4 py-10">
-      <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
+    <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-4 py-10">
+      <header className="mb-8 flex min-w-0 flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
         <Image
           src="/tranio-logo.png"
           alt="Tranio"
@@ -28,7 +28,7 @@ export default async function Home() {
         </div>
       </header>
 
-      <div className="min-w-0 flex-1">
+      <div className="min-w-0 w-full flex-1">
         <CalculatorPage />
       </div>
 

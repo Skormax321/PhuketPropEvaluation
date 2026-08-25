@@ -76,21 +76,22 @@ export default function LeadGate() {
     }
   };
 
-  const inputClass = "rounded border border-border px-3 py-2 text-ink";
+  const inputClass =
+    "box-border w-full min-w-0 max-w-full rounded border border-border px-3 py-2 text-ink";
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-4 py-10">
-      <div className="grid gap-8 md:grid-cols-2 md:items-center md:gap-10">
-        <div className="flex flex-col gap-5">
+    <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center px-4 py-10">
+      <div className="grid min-w-0 gap-8 md:grid-cols-2 md:items-center md:gap-10">
+        <div className="flex min-w-0 flex-col gap-5">
           <Image
             src="/tranio-logo.png"
             alt="Tranio"
-            width={172}
-            height={47}
+            width={287}
+            height={79}
             priority
-            className="h-auto w-[144px] max-w-[144px] sm:w-[172px] sm:max-w-[172px]"
+            className="h-9 w-auto max-w-full shrink-0 object-contain sm:h-11"
           />
-          <div>
+          <div className="min-w-0">
             <h1 className="text-2xl font-medium text-ink sm:text-3xl">
               Калькулятор позиции юнита на рынках Пхукета и Паттайи
             </h1>
@@ -101,11 +102,11 @@ export default function LeadGate() {
           </div>
           <ul className="grid gap-2 text-sm text-ink">
             {BENEFITS.map((item) => (
-              <li key={item} className="flex gap-2">
-                <span aria-hidden className="text-muted">
+              <li key={item} className="flex min-w-0 gap-2">
+                <span aria-hidden className="shrink-0 text-muted">
                   —
                 </span>
-                <span>{item}</span>
+                <span className="min-w-0 break-words">{item}</span>
               </li>
             ))}
           </ul>
@@ -113,7 +114,7 @@ export default function LeadGate() {
 
         <form
           onSubmit={handleSubmit}
-          className="grid gap-4 rounded-lg border border-border bg-white p-5"
+          className="box-border grid w-full min-w-0 max-w-full gap-4 rounded-lg border border-border bg-white p-4 sm:p-5"
         >
           <h2 className="text-sm font-medium text-ink">Получить доступ</h2>
 

@@ -94,13 +94,13 @@ function MiniHist({
           )}
         </BarChart>
       </ResponsiveContainer>
-      <div className="mt-1 flex flex-wrap gap-3 text-[10px] text-muted">
-        <span>Юнит: {formatMetric(unitVal, format)}</span>
+      <div className="mt-1 flex min-w-0 flex-wrap gap-x-3 gap-y-1 text-[10px] text-muted">
+        <span className="min-w-0 break-words">Юнит: {formatMetric(unitVal, format)}</span>
         {originalVal != null && (
-          <span>Оригинал: {formatMetric(originalVal, format)}</span>
+          <span className="min-w-0 break-words">Оригинал: {formatMetric(originalVal, format)}</span>
         )}
-        <span>Медиана: {formatMetric(med, format)}</span>
-        <span>
+        <span className="min-w-0 break-words">Медиана: {formatMetric(med, format)}</span>
+        <span className="min-w-0 break-all">
           {formatMetric(domain[0], format === "money" ? "space" : format)}–
           {formatMetric(domain[1], format === "money" ? "space" : format)}
         </span>
@@ -140,7 +140,7 @@ function CohortBlock({ cohort, unit }: { cohort: CohortResult; unit: UnitInput }
           );
         })}
       </div>
-      <div className="mt-2 flex gap-4 text-[10px] text-muted">
+      <div className="mt-2 flex min-w-0 flex-wrap gap-x-4 gap-y-1 text-[10px] text-muted">
         <span className="inline-flex items-center gap-1">
           <span className="inline-block h-0.5 w-3 bg-ink" /> Ваша цена
         </span>
