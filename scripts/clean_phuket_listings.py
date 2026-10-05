@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Clean FazWaz WebScraper CSVs into output/{market}_{off_plan,ready}.csv."""
+"""Clean FazWaz listing CSVs into output/{market}_{off_plan,ready}.csv."""
 
 from __future__ import annotations
 
@@ -28,15 +28,12 @@ MARKETS = ("phuket", "pattaya")
 
 DEFAULT_RAW: dict[str, dict[str, list[Path]]] = {
     "phuket": {
-        "off_plan": [PARENT / "Off-plan July 2026.csv"],
-        "ready": [PARENT / "Ready July 2026.csv"],
+        "off_plan": [PARENT / "off-plan-Phuket-09.csv"],
+        "ready": [PARENT / "ready-Phuket-09.csv"],
     },
     "pattaya": {
-        "off_plan": [
-            PARENT / "Pattaya-offplan-1.csv",
-            PARENT / "Pattaya-offplan-2.csv",
-        ],
-        "ready": [PARENT / "Pattaya-ready.csv"],
+        "off_plan": [PARENT / "pattaya-off-plan-09.csv"],
+        "ready": [PARENT / "pattaya-ready-09.csv"],
     },
 }
 
@@ -98,23 +95,63 @@ def parse_prop_type(title: str | None) -> str | None:
     return m.group(1).title() if m else None
 
 
+def normalize_district(raw: str) -> str:
+    """Keep the tambon before the first comma: 'Nong Prue, Pattaya' → 'Nong Prue'."""
+    return raw.split(",", 1)[0].strip()
+
+
+def parse_bedrooms_field(value: str | None) -> int | None:
+    if not value:
+        return None
+    text = value.strip()
+    if not text:
+        return None
+    if text.lower() == "studio":
+        return 0
+    try:
+        return int(float(text))
+    except ValueError:
+        return parse_bedrooms(text)
+
+
+def is_structured_row(row: dict[str, str]) -> bool:
+    return "project_name" in row and "unit_id" in row
+
+
 def parse_unit_id(row: dict[str, str]) -> str | None:
-    href = row.get("unit-info__description-title href") or ""
+    unit_id = (row.get("unit_id") or "").strip()
+    if unit_id:
+        return unit_id
+    href = row.get("unit-info__description-title href") or row.get("url") or ""
     m = UNIT_ID_RE.search(href)
     return m.group(1) if m else None
 
 
-def clean_row(row: dict[str, str]) -> tuple[dict | None, str | None]:
-    """Return (record, drop_reason). drop_reason is None if kept."""
-    district = (row.get("location-unit") or "").strip()
+def extract_fields(row: dict[str, str]) -> tuple[str, str, float | None, float | None, float | None, int | None, str | None]:
+    if is_structured_row(row):
+        district = normalize_district(row.get("location") or "")
+        project = (row.get("project_name") or "").strip()
+        thb = parse_thb(row.get("price"))
+        thb_sqm = parse_thb_sqm(row.get("price_per_sqm"))
+        area = parse_area(row.get("area_sqm"))
+        bedrooms = parse_bedrooms_field(row.get("bedrooms"))
+        prop_type = (row.get("property_type") or "").strip() or None
+        return district, project, thb, thb_sqm, area, bedrooms, prop_type
+
+    district = normalize_district(row.get("location-unit") or "")
     project = (row.get("unit-name") or "").strip()
     title = row.get("unit-info__description-title") or ""
-
     thb = parse_thb(row.get("price-tag"))
     thb_sqm = parse_thb_sqm(row.get("dynamic-tooltip"))
     area = parse_area(row.get("dynamic-tooltip 2"))
     bedrooms = parse_bedrooms(title)
     prop_type = parse_prop_type(title)
+    return district, project, thb, thb_sqm, area, bedrooms, prop_type
+
+
+def clean_row(row: dict[str, str]) -> tuple[dict | None, str | None]:
+    """Return (record, drop_reason). drop_reason is None if kept."""
+    district, project, thb, thb_sqm, area, bedrooms, prop_type = extract_fields(row)
 
     if not district or thb is None or area is None or bedrooms is None:
         return None, "parse"
@@ -157,7 +194,7 @@ def load_raw_rows(paths: list[Path]) -> list[dict[str, str]]:
     for path in paths:
         if not path.is_file():
             raise FileNotFoundError(f"Raw CSV not found: {path}")
-        with path.open(newline="", encoding="utf-8") as f:
+        with path.open(newline="", encoding="utf-8-sig") as f:
             rows.extend(csv.DictReader(f))
     return rows
 

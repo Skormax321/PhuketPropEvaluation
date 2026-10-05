@@ -1,1862 +1,1922 @@
 [
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Grand Solaire Noble",
-    "count": 1042
+    "count": 750
   },
   {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Embassy World",
-    "count": 755
+    "count": 727
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Pristine Park 3",
-    "count": 585
+    "count": 619
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "The Coral Pattaya",
-    "count": 576
+    "count": 601
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Copacabana Coral Reef",
-    "count": 554
+    "count": 589
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Zenith Pattaya ll",
-    "count": 432
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Grand Solaire Pattaya",
-    "count": 371
+    "count": 459
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Seven Seas Le Carnival",
-    "count": 354
+    "count": 368
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "SKYPARK Lucean Jomtien Pattaya",
-    "count": 334
+    "count": 357
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "Grand Solaire Pattaya",
+    "count": 325
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "View Talay 8",
-    "count": 290
+    "count": 296
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Twin Towers The Grand Jomtien Pattaya",
-    "count": 234
+    "count": 242
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Embassy Life",
-    "count": 220
+    "count": 235
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Copacabana Beach Jomtien",
-    "count": 204
+    "count": 222
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Avenue Boutique Condominium",
-    "count": 182
+    "count": 193
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Na Kluea",
+    "project": "Soondri Wongamat",
+    "count": 192
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
     "project": "Aquarous Jomtien Pattaya",
-    "count": 182
+    "count": 189
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Love It Wongamat Beach Pattaya",
-    "count": 170
+    "count": 179
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Riviera Palm Beach Wongamat",
-    "count": 169
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Marina Golden Bay",
-    "count": 157
+    "count": 162
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
-    "project": "Once Wongamat",
-    "count": 153
+    "district": "Na Kluea",
+    "project": "The Riviera Palm Beach Wongamat",
+    "count": 161
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Riviera Beverly Hills Residences",
-    "count": 149
+    "count": 159
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Embassy Pattaya",
-    "count": 126
+    "district": "Na Kluea",
+    "project": "Once Wongamat",
+    "count": 159
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Seven Seas Cote d'Azur",
-    "count": 125
+    "count": 130
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
-    "project": "Dcondo Vite",
-    "count": 117
+    "district": "Nong Prue",
+    "project": "Embassy Pattaya",
+    "count": 129
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Seaspire Jomtien",
     "count": 116
   },
   {
-    "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
-    "project": "Celine Wongamat",
-    "count": 114
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Harmonia City Garden",
-    "count": 111
-  },
-  {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Dusit Grand Park 2",
+    "count": 113
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "Harmonia City Garden",
+    "count": 112
+  },
+  {
+    "segment": "off_plan",
+    "district": "Na Kluea",
+    "project": "Secret Garden Condominium",
     "count": 105
   },
   {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
-    "project": "Secret Garden Condominium",
-    "count": 103
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "SO Origin Pattaya",
-    "count": 102
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Unixx South Pattaya",
-    "count": 92
+    "district": "Na Kluea",
+    "project": "Celine Wongamat",
+    "count": 100
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Zenith Pattaya",
-    "count": 89
+    "count": 98
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Unixx South Pattaya",
+    "count": 95
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Arcadia Millennium Tower",
+    "count": 93
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "The Riviera Wongamat",
+    "count": 88
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "SO Origin Pattaya",
     "count": 87
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Riviera Monaco",
-    "count": 82
+    "count": 86
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Beverly Mountain Bay Pattaya",
-    "count": 82
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Zensiri Jomtien Residences",
-    "count": 81
+    "count": 85
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Riviera Wongamat",
-    "count": 78
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Riviera Santa Monica",
-    "count": 77
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Wyndham Jomtien",
+    "count": 85
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Seven Seas Condo Jomtien",
+    "count": 80
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Espana Condo Resort Pattaya",
     "count": 77
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Seven Seas Condo Jomtien",
-    "count": 76
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Espana Condo Resort Pattaya",
+    "district": "Nong Prue",
+    "project": "The Feelture Condominium",
     "count": 75
   },
   {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Feelture Condominium",
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "The Riviera California",
+    "count": 74
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "Zensiri Jomtien Residences",
     "count": 72
   },
   {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Riviera California",
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Panora Pattaya",
+    "count": 72
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Riviera Jomtien",
     "count": 71
   },
   {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Panora Pattaya",
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Oasis",
     "count": 69
   },
   {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Oasis",
-    "count": 68
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Diamond Suites Resort Condominium",
+    "count": 67
   },
   {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Riviera Jomtien",
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "The Riviera Santa Monica",
     "count": 66
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Diamond Suites Resort Condominium",
+    "district": "Na Kluea",
+    "project": "The Origin Pattaya",
     "count": 64
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Origin Pattaya",
-    "count": 63
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Venetian Signature Condo Resort Pattaya",
     "count": 62
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Grande Caribbean",
-    "count": 59
+    "count": 62
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Centric Sea",
+    "count": 61
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Atlantis Condo Resort",
     "count": 57
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Atlantis Condo Resort",
+    "district": "Nong Prue",
+    "project": "The Peak Towers",
     "count": 56
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Peak Towers",
-    "count": 50
+    "district": "Nong Prue",
+    "project": "Laguna Beach Resort 3 - The Maldives",
+    "count": 51
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Laguna Beach Resort 3 - The Maldives",
+    "district": "Nong Prue",
+    "project": "Cosy Beach View",
     "count": 46
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Cosy Beach View",
-    "count": 45
+    "district": "Nong Prue",
+    "project": "The Riviera Ocean Drive",
+    "count": 44
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Riviera Ocean Drive",
+    "district": "Nong Prue",
+    "project": "Arunothai Condo",
     "count": 43
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Arunothai Condo",
-    "count": 42
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Empire Tower Pattaya",
-    "count": 41
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Once Pattaya Condominium",
     "count": 41
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "The Empire Tower Pattaya",
+    "count": 40
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Lumpini Park Beach Jomtien",
-    "count": 35
+    "count": 40
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Baan Plai Haad",
-    "count": 35
+    "count": 38
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
+    "project": "Arom Wongamat",
+    "count": 36
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Dusit Grand Park",
+    "count": 36
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
     "project": "Vay Pothisan",
-    "count": 35
+    "count": 36
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Olympus City Garden",
+    "count": 35
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "The Riviera Malibu",
     "count": 34
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Arom Wongamat",
-    "count": 32
+    "district": "Nong Prue",
+    "project": "Cetus Beachfront",
+    "count": 31
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Dusit Grand Park",
+    "district": "Nong Prue",
+    "project": "Laguna Beach Resort 2",
     "count": 31
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Riviera Malibu",
-    "count": 30
-  },
-  {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Grand Bay View Condominium – Pattaya",
     "count": 30
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Palm Wongamat",
-    "count": 29
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Supalai Mare Pattaya",
-    "count": 28
+    "count": 30
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Cetus Beachfront",
+    "district": "Na Kluea",
+    "project": "The Palm Wongamat",
+    "count": 30
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Arom Jomtien",
+    "count": 30
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "La Santir",
     "count": 27
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "La Santir",
+    "district": "Nong Prue",
+    "project": "View Talay 5",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Base Central Pattaya",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "D-ECO Wellness Centre",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Dusit Grand Condo View",
     "count": 26
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Laguna Beach Resort 2",
-    "count": 25
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Arom Jomtien",
-    "count": 25
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "D-ECO Wellness Centre",
-    "count": 25
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Base Central Pattaya",
-    "count": 24
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay 5",
-    "count": 24
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Treetops Pattaya",
+    "count": 25
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Lumpini Ville Naklua - Wongamat",
+    "count": 25
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Northpoint",
+    "count": 25
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "City Garden Tower",
+    "count": 25
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Lumpini Condo Town North Pattaya-Sukhumvit",
     "count": 24
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Dusit Grand Condo View",
+    "district": "Nong Prue",
+    "project": "Reflection Jomtien Beach",
+    "count": 24
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Wongamat Tower",
     "count": 23
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Lumpini Ville Naklua - Wongamat",
+    "district": "Nong Prue",
+    "project": "Aeras",
     "count": 23
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Northpoint",
-    "count": 23
+    "district": "Na Kluea",
+    "project": "City Garden Tropicana",
+    "count": 22
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Orient Resort And Spa",
     "count": 22
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "City Garden Tower",
-    "count": 22
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Lumpini Condo Town North Pattaya-Sukhumvit",
-    "count": 22
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Plaza Condotel",
-    "count": 21
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "City Garden Tropicana",
-    "count": 21
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Axis Pattaya Condo",
-    "count": 21
+    "count": 22
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Wongamat Tower",
-    "count": 21
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "S-Fifty Condominium",
-    "count": 21
+    "count": 22
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Reflection Jomtien Beach",
-    "count": 19
+    "district": "Nong Prue",
+    "project": "Jomtien Plaza Condotel",
+    "count": 20
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Aeras",
-    "count": 19
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "EDGE Central Pattaya",
-    "count": 18
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Trust Condo South Pattaya",
     "count": 18
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Amazon Residence",
+    "district": "Nong Prue",
+    "project": "Arcadia Beach Resort",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Zire Wongamat",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Na Kluea",
+    "project": "Club Royal",
+    "count": 17
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "The Whitehouse Condotel",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Lumpini Seaview Jomtien",
+    "district": "Nong Prue",
+    "project": "EDGE Central Pattaya",
     "count": 16
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Sanctuary Wong Amat",
+    "district": "Nong Prue",
+    "project": "Rimhad Jomtien Condominium",
     "count": 16
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Siam Garden 3",
+    "count": 16
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Lumpini Seaview Jomtien",
     "count": 15
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Rimhad Jomtien Condominium",
-    "count": 14
+    "district": "Na Kluea",
+    "project": "The Sanctuary Wong Amat",
+    "count": 15
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Arcadia Beach Resort",
-    "count": 14
+    "district": "Na Kluea",
+    "project": "The Cove Pattaya",
+    "count": 15
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Club Royal",
-    "count": 14
-  },
-  {
-    "segment": "ready",
-    "district": "Bang Lamung, Pattaya",
-    "project": "Paradise Ocean View",
-    "count": 13
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Prime Suites",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Amazon Residence",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Serenity Wongamat",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Apus",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "La Royale Beach",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Bang Lamung",
+    "project": "Paradise Ocean View",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Laguna Beach Resort 1",
     "count": 13
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Elegance",
     "count": 13
   },
   {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Indeed Condo Pattaya",
-    "count": 12
-  },
-  {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Laguna Beach Resort 1",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Dream",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "La Royale Beach",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Serenity Wongamat",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Cove Pattaya",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Andromeda Condominium",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Cloud",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Acqua Condo",
+    "count": 12
+  },
+  {
+    "segment": "off_plan",
+    "district": "Nong Prue",
+    "project": "The Indeed Condo Pattaya",
     "count": 11
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Apus",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sands Condominium",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Park Beach Condominium",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Arcadia Beach Continental",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Sands Condominium",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Nirun Grand Ville",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "AD Hyatt Condominium",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Andromeda Condominium",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Wongamat Privacy",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Ananya Beachfront Wongamat",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "CC Condominium 1",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Cliff Pattaya",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Natureza Art",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Chezz Metro Life Condo",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "City Center Residence",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Jada Beach Condominium",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "C View Residence Pattaya",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Natureza Art",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Dream",
     "count": 10
   },
   {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "PTY Residence Sai 1",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "The Senate Residences",
+    "count": 9
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "View Talay 1",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Cliff Pattaya",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "CC Condominium 1",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "City Center Residence",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "City Garden Pattaya",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Acqua Condo",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Tait Pattaya",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Ananya Beachfront Wongamat",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Chezz Metro Life Condo",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "City Garden Pratumnak",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "AD Hyatt Condominium",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Aurora Pratumnak",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nirun Grand Ville",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Urban Attitude",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Angket Condominium",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Urban Condominium",
     "count": 8
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Vay Pothisan II",
+    "district": "Nong Prue",
+    "project": "Aurora Pratumnak",
     "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Senate Residences",
+    "district": "Na Kluea",
+    "project": "Park Beach Condominium",
     "count": 8
   },
   {
-    "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pool View",
-    "count": 7
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "City Garden Pattaya",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Complex",
-    "count": 7
+    "district": "Nong Prue",
+    "project": "The Urban Attitude",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Gardenia Pattaya",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "The Private Paradise",
-    "count": 7
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Park Lane Jomtien",
-    "count": 7
+    "district": "Nong Prue",
+    "project": "City Garden Pratumnak",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Tropical Garden",
-    "count": 7
+    "district": "Nong Prue",
+    "project": "Angket Condominium",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "The Trust Central Pattaya",
-    "count": 7
+    "district": "Nong Prue",
+    "project": "C View Residence Pattaya",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Park Royal 3",
-    "count": 7
+    "district": "Nong Prue",
+    "project": "Gardenia Pattaya",
+    "count": 8
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Northshore Pattaya",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Tropical Garden",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Neo Sea View",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Paradise Park",
+    "district": "Na Kluea",
+    "project": "The Trust Central Pattaya",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "View Talay 3",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Complex",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Park Royal 3",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Park Lane Jomtien",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Beach Condo",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Musselana",
+    "district": "Nong Prue",
+    "project": "Pattaya City Resort",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Baan Suan Lalana",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Gallery Jomtien",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Grand Condotel",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay 3",
+    "district": "Nong Prue",
+    "project": "Sky Residences Pattaya",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Paradise Park",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "View Talay 2",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Yensabai Condotel",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Garden 2",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Wyndham Atlas Wongamat",
     "count": 6
   },
   {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Garden 2",
+    "count": 6
+  },
+  {
     "segment": "off_plan",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Siam Oriental Beach",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic VIP",
+    "district": "Na Kluea",
+    "project": "Laguna Heights",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Panchalae Boutique Residence",
+    "district": "Nong Prue",
+    "project": "Baan Haad Uthong Condominium",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Hyde Park Residence 2",
+    "district": "Nong Prue",
+    "project": "Elysium Residences",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Residence Jomtien Beach",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sky Residences Pattaya",
+    "district": "Nong Prue",
+    "project": "The Blue Residence",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Regent Pratumnak",
+    "district": "Nong Prue",
+    "project": "Baan Suan Lalana",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Arcadia Center Suites",
+    "district": "Nong Prue",
+    "project": "Hyde Park Residence 2",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "South Beach Condominium",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Wongamat Privacy",
+    "district": "Nong Prue",
+    "project": "The Vision",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Thip Condotel",
+    "district": "Nong Prue",
+    "project": "The Regent Pratumnak",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Beach Condo",
+    "district": "Nong Prue",
+    "project": "New Nordic Trend 5",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya City Resort",
+    "district": "Nong Prue",
+    "project": "Chateau Dale",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sweet Condo 2",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Unicca",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya Condotel Chain",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Mountain Condominium",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Serenity Residence Jomtien",
-    "count": 4
+    "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Neo Condo",
-    "count": 4
+    "district": "Nong Prue",
+    "project": "Musselana",
+    "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay 6",
-    "count": 4
+    "district": "Na Kluea",
+    "project": "Sky Beach",
+    "count": 5
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Rizin Hotel & Residences",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The View Cozy Beach Residence",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya Beach Condo",
+    "district": "Nong Prue",
+    "project": "One Tower Pratumnak",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Grand Avenue Residence",
+    "district": "Nong Prue",
+    "project": "Arcadia Center Suites",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Blue Residence",
+    "district": "Nong Prue",
+    "project": "Pattaya Plaza Condotel",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "CC Condominium 2",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Laguna Bay 2",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay 7",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Nova Ocean View",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Vision",
+    "district": "Nong Prue",
+    "project": "CC Condominium 2",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Laguna Bay 1",
+    "district": "Nong Prue",
+    "project": "Grand Avenue Residence",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Baan Haad Uthong Condominium",
+    "district": "Nong Prue",
+    "project": "Trio Gems",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay 2",
+    "district": "Nong Prue",
+    "project": "The Winner Condominium",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Point Pratumnak",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Park Royal 2",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Sky Beach",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Chateau Dale",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Kieng Talay",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Na Lanna Condo",
+    "district": "Nong Prue",
+    "project": "Laguna Bay 1",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic Trend 5",
+    "district": "Nong Prue",
+    "project": "Panchalae Boutique Residence",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Jomtien Beach Penthouses",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Ananya Beachfront Naklua",
+    "district": "Na Kluea",
+    "project": "AD Condominium",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Pattaya Posh Condominium",
-    "count": 3
+    "district": "Nong Prue",
+    "project": "The Point Pratumnak",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Euro Condo",
-    "count": 3
+    "district": "Nong Prue",
+    "project": "The Gallery Jomtien",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Center Point Condominium",
-    "count": 3
+    "district": "Nong Prue",
+    "project": "View Talay 7",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Executive Residence II",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Jomtien Beach Paradise",
-    "count": 3
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Club House",
-    "count": 3
+    "district": "Nong Prue",
+    "project": "View Talay 6",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "One Tower Pratumnak",
-    "count": 3
+    "district": "Nong Prue",
+    "project": "Laguna Bay 2",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya Plaza Condotel",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nordic Park Hill",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay Residence 1",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sombat Pattaya Condotel",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sugar Beach",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "VN Residence 3",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Park Jomtien",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Thien Tong Condotel",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Royal Hill Resort",
-    "count": 3
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "The Ocean Pearl",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Majestic Jomtien Condominium",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Na Lanna Condo",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Unicca",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Pattaya Beach Condo",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Park Royal 2",
+    "count": 4
+  },
+  {
+    "segment": "off_plan",
+    "district": "Na Kluea",
+    "project": "Dcondo Vite",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Elegance",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Garden Cliff Condominium 1",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Laguna Heights",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "LK Legend",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Royal Cliff Garden",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "AD Condominium",
+    "district": "Nong Prue",
+    "project": "LK Legend",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
+    "project": "Sugar Beach",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "View Talay Residence 4",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Elysium Residences",
+    "district": "Nong Prue",
+    "project": "Pattaya Condotel Chain",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Bang Lamung, Pattaya",
+    "district": "Nong Prue",
+    "project": "Fly Bird Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Pattaya Posh Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Sunset Boulevard 1",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Club House",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Neo Condo",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "C-View Boutique and Residence",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Pattaya Heights",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Sombat Pattaya Condotel",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "PKCP Tower",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Euro Condo",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Sweet Condo 2",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Mountain Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Thien Tong Condotel",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Plaza",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Rizin Hotel & Residences",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Diana Estate",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Bang Lamung",
     "project": "Estanan Condo",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Trio Gems",
+    "district": "Nong Prue",
+    "project": "View Talay Residence 1",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Sweet Condotel 1",
+    "district": "Nong Prue",
+    "project": "The Park Jomtien",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Center Point Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Ananya Beachfront Naklua",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Bayview Condominium 2",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Spanish Place Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Fly Bird Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay Residence 5",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Pla Lai, Pattaya",
-    "project": "The Green Living Condo Pattaya",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Centara Avenue Residence and Suites",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Water Park",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Bang Lamung, Pattaya",
-    "project": "Bay View Resort",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Siam Oriental Star",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Majestic Jomtien Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Diana Estate",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Plaza",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Peak Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Markland Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Center Condotel",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Tudor Court",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Elegance 2",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Pride",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Villa Navin",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Embassy Pattaya City Condo",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Siam Oriental Twins",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Executive Residence 4",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jewel Pratumnak",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "PKCP Tower",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic Trend 6",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nordic Dream Paradise",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya Hill Resort",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Siam Penthouse 3",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pattaya Heights",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Siam Ocean View",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Holiday Condo View",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Executive Residence II",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Hagone",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "Ramada Mira North Pattaya",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Pla Lai",
+    "project": "The Green Living Condo Pattaya",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Elegance 2",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Tudor Court",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jewel Pratumnak",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Centara Avenue Residence and Suites",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "View Talay Residence 5",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Siam Penthouse 3",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Twins",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Garden 1",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Embassy Pattaya City Condo",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Pattaya Hill Resort",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Pride",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Wongamat Garden Beach",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Markland Condominium",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Executive Residence 4",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Executive Residence 3",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Water Park",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "VN Residence 3",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Hagone",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Chateau Dale Thabali",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Nordic Dream Paradise",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Villa Navin",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Trend 3",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic VIP 2",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Avatara Condominium Pattaya",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic VIP 4",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic’s Atrium Condominium",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Trend 6",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Sweet Condotel 1",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Nordic Park Hill",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "AD Wongamat",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Center Condotel",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Bang Lamung",
+    "project": "Bay View Resort",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Spanish Place Condominium",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Garden Cliff Condominium 1",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Nordic Terrace",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Holiday Condo View",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
     "project": "Onyx",
     "count": 2
   },
   {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Elegance",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Peak Condominium",
+    "count": 2
+  },
+  {
     "segment": "off_plan",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
     "project": "The Trust North Pattaya",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nordic Terrace",
+    "district": "Nong Prue",
+    "project": "Ruamchok Condo View 2",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Infiniti Condo",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Winner Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Tropicana Condotel",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Residences @ Dream Pattaya",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic Marcus 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Ruamchok Condo View 5",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Thepthip Mansion Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Novana Residence",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Star Beach Condotel",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "View Talay Residence 3",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic Club 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Paradise Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic VIP 4",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic VIP 5",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Chateau Dale Thabali",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Bang Lamung, Pattaya",
-    "project": "Pattaya Del Rey",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sunset Boulevard 1",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Avatara Condominium Pattaya",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Garden Cliff Condominium 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nova Atrium Pattaya",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Executive Residence 3",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Pattaya Tower",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Pla Lai, Pattaya",
-    "project": "Baan Samran",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Paradise Residence 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "New Nordic’s Atrium Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "De Blue Condo",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Life Vela Casa",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Pratumnak Soi 4 Condo VIP 1",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Beach Mountain 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Jomtien Beach Mountain 6",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Bayview Condominium 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Bay View Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Nordic Little Dream",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Villa La Richie",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Pla Lai, Pattaya",
-    "project": "Baan Suan Lalana 2",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Keha Thepprasit",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Porch Land 2",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Jomtien Hill Resort Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Executive Residence I",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Sunrise Hill Residence",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Beach 7 Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "The Grass",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
-    "project": "Tara Court Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Golden Pattaya Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "Sixty Six Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Nong Prue, Pattaya",
+    "district": "Nong Prue",
     "project": "Katalina Residence",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Na Kluea",
+    "project": "Saranchol Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Executive Residence I",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Plaza Residence",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Beach 7 Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Condotel and Village",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "View Talay Residence 6",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Wongamat Residence Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Keha Thepprasit",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Hill Resort Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Beach Mountain 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Grass",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Sunrise Hill Residence",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
     "project": "Nova Mirage Wongamat",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
-    "project": "AD Wongamat",
+    "district": "Nong Prue",
+    "project": "Novana Residence",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Na Kluea, Pattaya",
+    "district": "Nong Prue",
+    "project": "View Talay Residence 3",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Star Beach Condotel",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Garden Cliff Condominium 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Bang Lamung",
+    "project": "Pattaya Del Rey",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Pattaya Tower",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Residences @ Dream Pattaya",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "The Bay View Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Pla Lai",
+    "project": "Baan Suan Lalana 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Marcus 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Infiniti Condo",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Trend 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Club 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Paradise Residence 2",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic Trend 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Life Vela Casa",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Paradise Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "NEW NORDIC CLUB 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Villa La Richie",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
+    "project": "Sixty Six Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Pratumnak Soi 4 Condo VIP 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "New Nordic VIP 5",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Nordic Little Dream",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Ruamchok Condo View 5",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "De Blue Condo",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Siam Oriental Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Thepthip Mansion Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Pla Lai",
+    "project": "Baan Samran",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Na Kluea",
     "project": "Beach Mountain 4",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Nong Prue",
+    "project": "Jomtien Thip Condotel",
     "count": 1
   }
 ]

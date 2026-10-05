@@ -1,2498 +1,2480 @@
 [
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "So Lagoon Cherngtalay",
-    "count": 294
+    "district": "Karon",
+    "project": "Ever Prime Residences Karon",
+    "count": 326
   },
   {
     "segment": "off_plan",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "Aceller Hotel & Residence",
-    "count": 286
+    "district": "Choeng Thale",
+    "project": "The Liberty by Wallaya",
+    "count": 321
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Karon",
+    "project": "Phenomenon Kata Beach Condominium",
+    "count": 302
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The Title Heritage Bang-Tao",
+    "count": 298
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The Title Sierra",
+    "count": 297
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The Modeva",
+    "count": 281
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The GENS by Botanica",
+    "count": 277
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
     "project": "Sun Hills Layan Phuket",
+    "count": 247
+  },
+  {
+    "segment": "off_plan",
+    "district": "Karon",
+    "project": "So Origin Kata Phuket",
     "count": 239
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Title Heritage Bang-Tao",
+    "district": "Choeng Thale",
+    "project": "One World One Home Condominium Bangtao",
     "count": 236
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Phenomenon Kata Beach Condominium",
-    "count": 234
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Sun Hills Lake Side",
-    "count": 224
+    "count": 235
   },
   {
     "segment": "off_plan",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "Wyndham Fantasea Condo Chalong",
+    "district": "Sakhu",
+    "project": "The Olive",
+    "count": 222
+  },
+  {
+    "segment": "off_plan",
+    "district": "Wichit",
+    "project": "Origin Place Centre Phuket",
     "count": 220
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "So Origin Bangtao Beach",
-    "count": 219
+    "district": "Choeng Thale",
+    "project": "The Momentum Phuket",
+    "count": 218
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Liberty by Wallaya",
-    "count": 210
+    "district": "Choeng Thale",
+    "project": "Serene Condo Layan",
+    "count": 211
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Wallaya Residence Nai Harn",
-    "count": 203
-  },
-  {
-    "segment": "off_plan",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "The Title Coralina Kamala",
-    "count": 200
+    "count": 206
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "So Origin Kata Phuket",
-    "count": 197
+    "district": "Patong",
+    "project": "The Forest Patong - Paradise",
+    "count": 198
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Ever Prime Residences Karon",
-    "count": 191
-  },
-  {
-    "segment": "off_plan",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Title Vivana Kamala",
-    "count": 186
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Aura Condominium",
-    "count": 179
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Title Sierra",
-    "count": 177
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "VIP Tropika",
-    "count": 177
-  },
-  {
-    "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Katabello",
+    "count": 195
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kamala",
+    "project": "The Title Vivana Kamala",
+    "count": 194
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "VIP Tropika",
+    "count": 184
+  },
+  {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "Aura Condominium",
+    "count": 184
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kathu",
+    "project": "Dcondo Cove",
+    "count": 182
+  },
+  {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "VIP Space Odyssey",
+    "count": 175
+  },
+  {
+    "segment": "off_plan",
+    "district": "Chalong",
+    "project": "Wyndham Fantasea Condo Chalong",
     "count": 174
   },
   {
     "segment": "off_plan",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Origin Place Centre Phuket",
-    "count": 172
+    "district": "Sakhu",
+    "project": "The Title Serenity Naiyang",
+    "count": 174
   },
   {
     "segment": "off_plan",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "The Olive",
+    "district": "Rawai",
+    "project": "Wallaya Residence Nai Harn",
     "count": 171
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "PEYLAA Phuket Bang Tao",
-    "count": 168
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "VIP Space Odyssey",
-    "count": 168
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Serene Condo Layan",
-    "count": 167
-  },
-  {
-    "segment": "off_plan",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "The Title Serenity Naiyang",
-    "count": 165
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "One World One Home Condominium Bangtao",
-    "count": 161
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Modeva",
-    "count": 160
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "The Trees Residence by Anocha",
+    "count": 168
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kamala",
+    "project": "Citygate De Phuket",
     "count": 159
   },
   {
-    "segment": "off_plan",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Forest Patong - Paradise",
-    "count": 153
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Seavale Patong",
+    "count": 159
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "The Ozone Oasis Condominium",
-    "count": 150
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Momentum Phuket",
-    "count": 149
+    "count": 157
   },
   {
     "segment": "ready",
-    "district": "Si Sunthon, Thalang, Phuket",
+    "district": "Si Sunthon",
     "project": "The Cube Amaze",
-    "count": 143
+    "count": 148
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
+    "project": "PEYLAA Phuket Bang Tao",
+    "count": 144
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
     "project": "Sudara Phase 1",
-    "count": 138
+    "count": 141
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Botanica Hythe",
-    "count": 134
+    "count": 135
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Hennessy Residence",
+    "count": 132
+  },
+  {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "Wyndham Fantasea Condo Rawai",
+    "count": 131
+  },
+  {
+    "segment": "ready",
+    "district": "Ratsada",
+    "project": "The Cust Condo",
     "count": 126
   },
   {
-    "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "The Cust Condo",
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "Next Point Condominium",
     "count": 125
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Wyndham Fantasea Condo Rawai",
-    "count": 124
+    "district": "Choeng Thale",
+    "project": "AYANA Heights Seaview Residence",
+    "count": 116
   },
   {
     "segment": "off_plan",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Citygate De Phuket",
-    "count": 119
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Title Adora Rawai",
-    "count": 118
-  },
-  {
-    "segment": "off_plan",
-    "district": "Sakhu, Thalang, Phuket",
+    "district": "Sakhu",
     "project": "The Zero Nai Yang",
+    "count": 115
+  },
+  {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "The Title Adora Rawai",
+    "count": 115
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "The Title Legendary-Bang Tao",
+    "count": 115
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Layan Green Park Phase 2",
     "count": 114
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Layan Green Park Phase 2",
-    "count": 111
+    "district": "Rawai",
+    "project": "Sunny Moon",
+    "count": 112
   },
   {
     "segment": "off_plan",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "The Title Balcony",
-    "count": 111
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Title Legendary-Bang Tao",
+    "district": "Choeng Thale",
+    "project": "Biancana Title",
     "count": 109
   },
   {
     "segment": "off_plan",
-    "district": "Patong, Kathu, Phuket",
-    "project": "ABOV Patong",
-    "count": 108
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Bamboo Forest",
     "count": 107
   },
   {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "The City Phuket",
-    "count": 107
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Sunny Moon",
-    "count": 106
-  },
-  {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Biancana Title",
-    "count": 103
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Layan Verde",
-    "count": 101
+    "count": 105
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Atrium Andaman City",
+    "district": "Karon",
+    "project": "Ashiyana Heights",
     "count": 100
   },
   {
-    "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Ashiyana Heights",
-    "count": 99
-  },
-  {
-    "segment": "off_plan",
-    "district": "Si Sunthon, Thalang, Phuket",
-    "project": "Arise Vibe",
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Rawayana North Condo",
     "count": 96
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawayana North Condo",
-    "count": 94
+    "district": "Si Sunthon",
+    "project": "Arise Vibe",
+    "count": 95
   },
   {
     "segment": "off_plan",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "The Balance Luxury Condominium",
+    "count": 95
+  },
+  {
+    "segment": "off_plan",
+    "district": "Sakhu",
+    "project": "The Title Balcony",
     "count": 92
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Next Point Condominium",
-    "count": 89
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bellevue Beachfront Condo",
-    "count": 85
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "AYANA Heights Seaview Residence",
-    "count": 85
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Laguna Lakelands - Waterside Residences",
-    "count": 82
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Enigma Residence",
-    "count": 82
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Essence Residence",
-    "count": 81
+    "count": 84
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Mida Grande Resort Condominiums",
-    "count": 81
+    "district": "Choeng Thale",
+    "project": "Bellevue Beachfront Condo",
+    "count": 84
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Rawai",
+    "project": "Enigma Residence",
+    "count": 83
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Element by Anocha",
+    "count": 83
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
     "project": "Laguna Bayside",
+    "count": 82
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Mida Grande Resort Condominiums",
     "count": 78
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laya Resort Phuket",
+    "district": "Kathu",
+    "project": "The City Phuket",
     "count": 77
   },
   {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "Utopia Urban Glam",
+    "count": 76
+  },
+  {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Kora Beach Resort Phuket",
     "count": 74
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Laguna Lake Residences Aster",
+    "count": 73
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Layan Green Park Phase 1",
+    "count": 72
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "So Origin Bangtao Beach",
+    "count": 71
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Skypark Elara Lakelands",
     "count": 70
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Above Element",
-    "count": 69
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Skypark Elara Lakelands",
-    "count": 68
+    "count": 70
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Layan Green Park Phase 1",
-    "count": 68
-  },
-  {
-    "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "777 Beach Condo",
-    "count": 67
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Ozone Signature Condominium",
-    "count": 65
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
+    "district": "Kathu",
     "project": "The Origin Kathu-Patong",
-    "count": 65
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Sky Park",
     "count": 64
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "The Balance By The Beach",
+    "count": 62
+  },
+  {
+    "segment": "off_plan",
+    "district": "Ratsada",
+    "project": "The Base Midtown Phuket",
+    "count": 62
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Pirak Condominium Cherngtalay",
+    "count": 62
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Sky Park",
+    "count": 62
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "The Title Residencies",
+    "count": 62
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kamala",
+    "project": "The Residences at InterContinental Phuket Resort",
     "count": 61
   },
   {
     "segment": "off_plan",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Residences at InterContinental Phuket Resort",
+    "district": "Patong",
+    "project": "ABOV Patong",
+    "count": 60
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "The Beach Condotel",
     "count": 59
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Pirak Condominium Cherngtalay",
+    "district": "Sakhu",
+    "project": "Saint Tropez Naithon",
     "count": 58
   },
   {
-    "segment": "off_plan",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Dcondo Cove",
-    "count": 57
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Bellevue Lagoon Phuket",
+    "count": 58
   },
   {
     "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
+    "district": "Sakhu",
     "project": "The Title Halo 1",
     "count": 57
   },
   {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "The Title Residencies",
-    "count": 57
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "The Beach Condotel",
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Atrium Andaman City",
     "count": 56
   },
   {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Bellaguna Lake Residences",
+    "count": 55
+  },
+  {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bellevue Lagoon Phuket",
+    "district": "Rawai",
+    "project": "The One Naiharn",
     "count": 55
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bellaguna Lake Residences",
-    "count": 54
+    "district": "Rawai",
+    "project": "Essence Residence",
+    "count": 53
   },
   {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Base Cherngtalay",
-    "count": 54
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Element by Anocha",
-    "count": 54
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The One Naiharn",
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "So Lagoon Cherngtalay",
     "count": 53
   },
   {
     "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "Baan Mai Khao",
+    "district": "Wichit",
+    "project": "Centrio",
+    "count": 53
+  },
+  {
+    "segment": "off_plan",
+    "district": "Sakhu",
+    "project": "Sea Heaven Phase 3",
     "count": 52
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kamala",
+    "project": "MGallery Residences, MontAzure",
+    "count": 51
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Gardens of Eden - Park Residence",
+    "count": 51
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "CANVAS Cherngtalay",
-    "count": 52
-  },
-  {
-    "segment": "off_plan",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Seavale Patong",
-    "count": 51
-  },
-  {
-    "segment": "off_plan",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Sea Heaven Phase 3",
-    "count": 51
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Utopia Urban Glam",
+    "district": "Mai Khao",
+    "project": "Baan Mai Khao",
     "count": 50
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Gardens of Eden - Park Residence",
-    "count": 49
-  },
-  {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Centrio",
-    "count": 49
-  },
-  {
-    "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Wekata 3",
-    "count": 46
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Blue Lagoon",
-    "count": 46
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Diamond Condominium Bang Tao",
-    "count": 45
+    "count": 50
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The VIP Mercury - Wyndham La Vita Phuket",
-    "count": 45
+    "district": "Karon",
+    "project": "Wekata 3",
+    "count": 50
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
+    "project": "The Base Cherngtalay",
+    "count": 50
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "CANVAS Cherngtalay",
+    "count": 48
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "The Ozone Condominium",
+    "count": 48
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Blue Lagoon",
+    "count": 48
+  },
+  {
+    "segment": "ready",
+    "district": "Mai Khao",
+    "project": "777 Beach Condo",
+    "count": 47
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "The VIP Mercury - Wyndham La Vita Phuket",
+    "count": 46
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Terra Grove Layan",
     "count": 45
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Utopia Dream U2",
-    "count": 44
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Terra Grove Layan",
-    "count": 44
+    "district": "Choeng Thale",
+    "project": "So Residences Phuket Bangtao",
+    "count": 45
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Choeng Thale",
+    "project": "Bright Phuket",
+    "count": 45
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "The Proud Residence",
-    "count": 44
+    "count": 45
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Utopia Central",
-    "count": 44
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "THE BASE Bukit",
-    "count": 43
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "MGallery Residences, MontAzure",
-    "count": 43
-  },
-  {
-    "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "VIP Venus Karon",
-    "count": 42
+    "count": 45
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Kata View",
-    "count": 42
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Gardens of Eden - Eden Residence",
-    "count": 42
+    "count": 43
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
     "project": "Rawayana South Condo",
     "count": 42
   },
   {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bright Phuket",
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Siamese Bangtao",
     "count": 42
   },
   {
     "segment": "off_plan",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Vibe Residence Karon",
-    "count": 41
+    "district": "Karon",
+    "project": "Kata View",
+    "count": 42
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Rhea by Sansiri",
-    "count": 41
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Siamese Bangtao",
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "THE BASE Central Phuket",
     "count": 40
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "The Ark At Karon Hill",
+    "district": "Choeng Thale",
+    "project": "Andaman Riviera",
+    "count": 40
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Rhea by Sansiri",
     "count": 39
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Nai Harn Beach Condominium",
-    "count": 38
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "Oceana Kamala",
+    "count": 39
+  },
+  {
+    "segment": "off_plan",
+    "district": "Rawai",
+    "project": "Utopia Dream U2",
+    "count": 38
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The Standard Residences",
     "count": 38
   },
   {
     "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Sea Heaven Phase 2",
+    "district": "Karon",
+    "project": "The Ark At Karon Hill",
     "count": 38
   },
   {
     "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
+    "district": "Kamala",
+    "project": "CITYGATE",
+    "count": 38
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Kata Ocean View",
+    "count": 38
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "The Base Downtown",
+    "count": 38
+  },
+  {
+    "segment": "ready",
+    "district": "Mai Khao",
     "project": "Mai Khao Beach Condotel",
-    "count": 37
+    "count": 38
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "THE BASE Central Phuket",
-    "count": 37
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Utopia Karon",
     "count": 37
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Standard Residences",
-    "count": 36
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "The Title V",
+    "count": 37
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Pixels Cape Panwa Condo",
-    "count": 36
+    "district": "Rawai",
+    "project": "Nai Harn Beach Condominium",
+    "count": 37
   },
   {
     "segment": "off_plan",
-    "district": "Mai Khao, Thalang, Phuket",
+    "district": "Mai Khao",
     "project": "Maviston Mai Khao",
+    "count": 36
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "California Rawai",
+    "count": 36
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "The Pixels Cape Panwa Condo",
     "count": 35
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Kata Ocean View",
+    "district": "Choeng Thale",
+    "project": "Residences at Garrya Phuket",
+    "count": 35
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Laguna Beachside",
     "count": 35
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Dandara",
     "count": 34
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "ZCAPE III",
-    "count": 34
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Base Downtown",
-    "count": 34
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
     "project": "Wyndham Grand Naiharn Beach Phuket",
     "count": 34
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "California Rawai",
+    "district": "Wichit",
+    "project": "ZCAPE III",
     "count": 34
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Pa Khlok",
+    "project": "Marina Living Condo",
+    "count": 34
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Palm & Pine At Karon Hill",
     "count": 33
   },
   {
-    "segment": "ready",
-    "district": "Pa Khlok, Thalang, Phuket",
-    "project": "Marina Living Condo",
-    "count": 33
-  },
-  {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Residences at Garrya Phuket",
+    "district": "Choeng Thale",
+    "project": "SOLE MIO Residences",
     "count": 32
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "SOLE MIO Residences",
-    "count": 31
-  },
-  {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Title Cielo Rawai",
-    "count": 31
-  },
-  {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Title V",
-    "count": 31
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "WeKaron",
+    "count": 32
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "Dcondo Reef Phuket",
+    "count": 32
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Emerald Terrace",
     "count": 31
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "CITYGATE",
+    "district": "Sakhu",
+    "project": "Royal Lee The Terminal Phuket",
     "count": 30
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
+    "district": "Wichit",
+    "project": "Phyll Phuket by Central Pattana",
+    "count": 29
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "ADM Platinum Bay",
+    "count": 29
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
     "project": "The Base Rise",
-    "count": 30
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laguna Beachside",
     "count": 29
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Andaman Riviera",
-    "count": 29
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
     "project": "Dominion Rawai",
     "count": 29
   },
   {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Andaman Boutique Residences",
+    "count": 29
+  },
+  {
     "segment": "off_plan",
-    "district": "Si Sunthon, Thalang, Phuket",
+    "district": "Si Sunthon",
     "project": "8 Atelier Residence",
     "count": 28
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Dcondo Reef Phuket",
+    "district": "Choeng Thale",
+    "project": "The Aqua",
     "count": 28
   },
   {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Emerald Terrace",
+    "segment": "off_plan",
+    "district": "Chalong",
+    "project": "Aceller Hotel & Residence",
     "count": 27
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Chic Condo",
-    "count": 27
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Harmony Condominium",
-    "count": 27
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Utopia Loft",
-    "count": 27
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "The Marin Phuket",
     "count": 27
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Kamala",
+    "project": "Fantasea Condo Kamala",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Utopia Loft",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "6th Avenue Surin",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Cassia Phuket",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
     "project": "Babylon Sky Garden 2",
     "count": 27
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Aqua",
+    "district": "Rawai",
+    "project": "Harmony Condominium",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Laya Resort Phuket",
+    "count": 27
+  },
+  {
+    "segment": "ready",
+    "district": "Ratsada",
+    "project": "The Base Uptown",
     "count": 26
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "6th Avenue Surin",
+    "district": "Rawai",
+    "project": "Saturdays Residence",
+    "count": 26
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Bayshore Oceanview Condominium",
+    "count": 26
+  },
+  {
+    "segment": "ready",
+    "district": "Mai Khao",
+    "project": "Blue Canyon Heights",
     "count": 26
   },
   {
     "segment": "off_plan",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "Blue Canyon Heights",
+    "district": "Choeng Thale",
+    "project": "The Zero Bang Tao",
     "count": 25
   },
   {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Bayshore Oceanview Condominium",
-    "count": 25
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "The Ozone Signature Condominium",
+    "count": 24
+  },
+  {
+    "segment": "off_plan",
+    "district": "Karon",
+    "project": "Vibe Residence Karon",
+    "count": 24
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Cassia Phuket",
-    "count": 25
+    "district": "Wichit",
+    "project": "THE BASE Bukit",
+    "count": 24
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "ADM Platinum Bay",
-    "count": 25
+    "district": "Choeng Thale",
+    "project": "Space Cherngtalay Condominium",
+    "count": 24
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Karon Butterfly",
     "count": 24
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Saturdays Residence",
+    "district": "Choeng Thale",
+    "project": "Zcape I",
     "count": 24
   },
   {
     "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "The Base Uptown",
+    "district": "Rawai",
+    "project": "The Title Cielo Rawai",
     "count": 24
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Zero Bang Tao",
-    "count": 23
-  },
-  {
     "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "The Green Places Condominium",
-    "count": 23
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Fantasea Condo Kamala",
-    "count": 23
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Capri Residences",
-    "count": 23
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Royal Lee The Terminal Phuket",
-    "count": 23
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Melia Phuket Karon Residences",
     "count": 23
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "The Regent Bangtao",
+    "count": 23
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Chic Condo",
+    "count": 22
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "Surin Top Condominium",
     "count": 22
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Space Cherngtalay Condominium",
-    "count": 22
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "Grand Kamala Falls",
-    "count": 22
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Phyll Phuket by Central Pattana",
-    "count": 22
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Zcape I",
     "count": 21
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "ReLife The Windy",
+    "district": "Ratsada",
+    "project": "The Green Places Condominium",
     "count": 21
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Regent Bangtao",
+    "district": "Karon",
+    "project": "VIP Kata Condominium 2",
+    "count": 21
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Zcape X2",
+    "count": 21
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Capri Residences",
+    "count": 21
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "D Condo Kathu",
     "count": 20
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
     "project": "The Proud Rawai Condominium",
     "count": 20
   },
   {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "VIP Kata Condominium 2",
-    "count": 20
-  },
-  {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Canvaz Palette Cherngtalay",
     "count": 19
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Skypark Aurora Laguna Phuket",
+    "district": "Patong",
+    "project": "Patong Tower",
     "count": 19
   },
   {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Title Rawai Phase 1-2",
-    "count": 19
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Surin Sands Condo",
+    "count": 18
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Rawai",
+    "project": "ReLife The Windy",
+    "count": 18
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Aristo 1",
+    "count": 18
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
     "project": "The Baycliff Residence",
     "count": 18
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Zcape X2",
+    "district": "Rawai",
+    "project": "Rawai Beach Condo",
     "count": 18
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "D Condo Kathu",
-    "count": 18
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Surin Sands Condo",
+    "district": "Kamala",
+    "project": "Andara Resort and Villas",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Utopia Naiharn",
+    "district": "Patong",
+    "project": "The Deck Patong",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Aristo 1",
+    "district": "Choeng Thale",
+    "project": "Skypark Aurora Laguna Phuket",
     "count": 17
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong Tower",
-    "count": 17
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "Coral Beach Oceanview Resort",
     "count": 17
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "Serene Condominium Phuket",
     "count": 16
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laguna Beach Residences Seashore",
-    "count": 16
-  },
-  {
     "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "NOON Village Tower III",
-    "count": 16
-  },
-  {
-    "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
+    "district": "Chalong",
     "project": "Dlux Condominium",
     "count": 16
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Rawai",
+    "project": "The Title Rawai Phase 3 West Wing",
+    "count": 16
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Wekata Luxury",
     "count": 16
   },
   {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Andara Resort and Villas",
-    "count": 16
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawai Beach Condo",
-    "count": 16
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Title Rawai Phase 3 West Wing",
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Laguna Beach Residences Seashore",
     "count": 15
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Royal Place",
+    "district": "Kathu",
+    "project": "Utopia Central",
     "count": 15
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laguna Lakeside",
+    "district": "Rawai",
+    "project": "The Title Rawai Phase 1-2",
     "count": 15
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
+    "project": "Aristo 2",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Privilege",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Utopia Naiharn",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "Hill Myna Condotel",
     "count": 15
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Deck Patong",
+    "district": "Chalong",
+    "project": "NOON Village Tower III",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Laguna Lakeside",
+    "count": 15
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Rawai Beach Condominium",
     "count": 14
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Skypark Celeste Laguna",
+    "district": "Talat Yai",
+    "project": "Supalai Park at Downtown Phuket",
     "count": 14
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Chalong",
+    "project": "NOON Village Tower I",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
     "project": "The Bay and Beach Club",
     "count": 14
   },
   {
     "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "NOON Village Tower I",
+    "district": "Kathu",
+    "project": "Royal Place",
+    "count": 14
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Sea Heaven Phase 2",
+    "count": 14
+  },
+  {
+    "segment": "off_plan",
+    "district": "Wichit",
+    "project": "Escent Phuket",
     "count": 13
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawai Beach Condominium",
+    "district": "Kamala",
+    "project": "Twinpalms Residences by Montazure",
     "count": 13
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Andaman Boutique Residences",
-    "count": 13
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Privilege",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Absolute Twin Sands III",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Bel Air Panwa",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Aristo 2",
-    "count": 12
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Andamaya Surin Bay",
+    "count": 13
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Phuket Palace",
+    "count": 13
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Palmyrah Surin Beach Residence",
+    "count": 13
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Surfhouse Residences",
     "count": 12
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Wichit",
+    "project": "The Space Condominium",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Ozone Condotel",
     "count": 12
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Talat Yai",
+    "project": "The Base Height",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
     "project": "Naiharn Sea Condominium",
     "count": 12
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Palmyrah Surin Beach Residence",
+    "district": "Kathu",
+    "project": "D Condo Creek",
     "count": 12
   },
   {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "Bel Air Panwa",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Happy Place Condo",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "Living Residence Phuket",
+    "count": 12
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "Icon Park",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "The Lago Condominium",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Chalong",
+    "project": "Chalong Miracle Lakeview",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "The View Luxury Condominium",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Ocean Stone",
+    "count": 11
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "The Petit Tycoon",
     "count": 11
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Surfhouse Residences",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Ratchaporn Place",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Happy Place Condo",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Kamala Regent",
-    "count": 11
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Living Residence Phuket",
-    "count": 11
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "The Title Vivi",
     "count": 10
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Laguna Golf Residences Hibiscus",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "The View Luxury Condominium",
+    "district": "Sakhu",
+    "project": "Pearl Of Naithon",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Surin Sabai",
+    "district": "Patong",
+    "project": "Patong Condotel",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Phuket Palace",
+    "district": "Kathu",
+    "project": "Ratchaporn Place",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Allamanda 2 & 3 Condominium",
+    "district": "Rawai",
+    "project": "Calypso Garden Residences",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "NOON Village Tower II",
+    "district": "Choeng Thale",
+    "project": "Sansuri",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "D Condo Mine",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "Chalong Miracle Lakeview",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Icon Park",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Space Condominium",
-    "count": 10
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "The Residences Overlooking Layan",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Talat Yai, Phuket Town, Phuket",
-    "project": "Supalai Park at Downtown Phuket",
+    "district": "Patong",
+    "project": "Absolute Twin Sands III",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Ko Kaeo, Phuket Town, Phuket",
-    "project": "Royal Phuket Marina",
+    "district": "Kamala",
+    "project": "Kamala Regent",
     "count": 10
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong Condotel",
+    "district": "Choeng Thale",
+    "project": "Skypark Celeste Laguna",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Bliss Condo by Unity",
+    "count": 10
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Rawai Condominium",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Residence Kalim Bay",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Sansuri",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Lago Condominium",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Talat Nuea, Phuket Town, Phuket",
-    "project": "Sugar Palm Residence",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Cassia Residence Phuket",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "VIP Great Hill Condominium",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Pearl Of Naithon",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
+    "district": "Chalong",
     "project": "The Bell Condominium",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Pa Khlok, Thalang, Phuket",
+    "district": "Karon",
+    "project": "Palmetto Park Condominium",
+    "count": 9
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "VIP Great Hill Condominium",
+    "count": 9
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Cassia Residence Phuket",
+    "count": 9
+  },
+  {
+    "segment": "ready",
+    "district": "Pa Khlok",
+    "project": "East Coast Ocean Villas",
+    "count": 9
+  },
+  {
+    "segment": "ready",
+    "district": "Pa Khlok",
     "project": "Baan Yamu Residences",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Ocean Stone",
+    "district": "Choeng Thale",
+    "project": "Surin Sabai",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Calypso Garden Residences",
+    "district": "Patong",
+    "project": "The Residence Kalim Bay",
     "count": 9
   },
   {
     "segment": "ready",
-    "district": "Talat Yai, Phuket Town, Phuket",
-    "project": "The Base Height",
-    "count": 9
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Angsana Oceanview Residences",
+    "district": "Choeng Thale",
+    "project": "Allamanda 2 & 3 Condominium",
     "count": 9
   },
   {
     "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
     "project": "Sunrise Suksan Phuket",
     "count": 8
   },
   {
     "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
+    "district": "Sakhu",
     "project": "Sea Heaven",
     "count": 8
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Bliss Condo by Unity",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Palmetto Park Condominium",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "D Condo Creek",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Pa Khlok, Thalang, Phuket",
-    "project": "East Coast Ocean Villas",
-    "count": 8
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "Viva Patong",
     "count": 8
   },
   {
-    "segment": "off_plan",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Escent Phuket",
-    "count": 7
+    "segment": "ready",
+    "district": "Talat Nuea",
+    "project": "Sugar Palm Residence",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Talat Nuea",
+    "project": "The WIDE Condotel - Phuket",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "D Condo Mine",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "D Condo Kathu-Patong",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "The Scene",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Bangtao Tropical",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Saiyuan Buri Condominium",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Ko Kaeo",
+    "project": "Royal Phuket Marina",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "Heritage Suites",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Palm Breeze Resort",
+    "count": 8
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Utopia Apartment Mini 2",
+    "count": 8
   },
   {
     "segment": "off_plan",
-    "district": "Wichit, Phuket Town, Phuket",
+    "district": "Wichit",
     "project": "Alice Penthouse at Panwa Beach",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Heritage Suites",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Selina Serenity Resort & Residences",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Palm Breeze Resort",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "At The Tree Condominium",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Nice Condotel",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "D Condo Kathu-Patong",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Nakalay Palm",
-    "count": 7
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "Absolute Twin Sands Resort & Spa",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawai Condominium",
+    "district": "Rawai",
+    "project": "Selina Serenity Resort & Residences",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "The Scene",
+    "district": "Rawai",
+    "project": "At The Tree Condominium",
     "count": 7
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Chalong",
+    "project": "NOON Village Tower II",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
     "project": "Babylon Sky Garden",
     "count": 7
   },
   {
-    "segment": "off_plan",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Utopia Apartment Mini 2",
-    "count": 6
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "Nakalay Palm",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Ocean Breeze",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Banyan Tree Beach Residences Sirena",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Sunshine Beach Residences",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "Oasis Condos Kamala",
+    "count": 7
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Palmetto Condo",
+    "count": 7
   },
   {
     "segment": "off_plan",
-    "district": "Wichit, Phuket Town, Phuket",
+    "district": "Wichit",
     "project": "The Origin Centre Phuket",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Point Phuket",
+    "district": "Kamala",
+    "project": "Kamala Nature",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Sunset Plaza Condominium",
+    "district": "Rawai",
+    "project": "The Beachfront",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Unity Patong",
+    "district": "Talat Yai",
+    "project": "Supalai Vista Phuket",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Palmetto Condo",
+    "district": "Kamala",
+    "project": "Kamala Falls",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Baan Puri",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Calypso Condo",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Saiyuan Buri Condominium",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Grand Kata VIP",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bangtao Tropical",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Twinpalms Residences by Montazure",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Ocean Breeze",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "Dcondo Campus Resort Kuku Phuket",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Talat Nuea, Phuket Town, Phuket",
-    "project": "The WIDE Condotel - Phuket",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Sunshine Beach Residences",
-    "count": 6
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "The Charm",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Phanasons City Condominium",
+    "district": "Wichit",
+    "project": "The View Condo Suanluang",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Patong",
+    "project": "The Unity Patong",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "The Point Phuket",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "The Nice Condotel",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Layan Gardens",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Absolute Twin Sands I",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Calypso Condo",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
     "project": "Kamala Hills",
     "count": 6
   },
   {
     "segment": "ready",
-    "district": "Talat Nuea, Phuket Town, Phuket",
-    "project": "The Light",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Allamanda Laguna",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Sunset Plaza Condominium",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Baan Puri",
+    "count": 6
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Grand Kata VIP",
+    "count": 6
+  },
+  {
+    "segment": "off_plan",
+    "district": "Choeng Thale",
+    "project": "Banyan Tree Beach Residences - Oceanus",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Kathu Golf Condo",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "The Naithon Condominium",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Absolute Twin Sands I",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Layan Gardens",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Talat Yai, Phuket Town, Phuket",
-    "project": "Supalai Vista Phuket",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The View Condo Suanluang",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "Blue Canyon Golf and Country Club Home 2",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Beachfront",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Sea And Sky",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Trees Residence",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Niranda Sea View Residence",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Patong",
     "project": "Bluepoint Condominiums",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Kamala Nature",
-    "count": 5
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "The Phukris",
     "count": 5
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Banyan Tree Beach Residences Sirena",
+    "district": "Talat Nuea",
+    "project": "The Light",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Surin Gate",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Mai Khao",
+    "project": "Blue Canyon Golf and Country Club Home 2",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "Royal Kamala",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Trees Residence",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Niranda Sea View Residence",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Utopia Dream Max",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "The Green Golf Residence",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Ko Kaeo",
+    "project": "Supalai Lagoon Condo",
+    "count": 5
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Nai Harn Re-Life",
     "count": 5
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Banyan Tree Beach Residences - Oceanus",
-    "count": 4
-  },
-  {
-    "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "EverGreen Condominium Phuket",
     "count": 4
   },
   {
     "segment": "off_plan",
-    "district": "Thep Krasattri, Thalang, Phuket",
+    "district": "Thep Krasattri",
     "project": "Le Chanel Sky Pool Villa Cherngtalay",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Dewa Phuket Resort and Villas",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Royal Kamala",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Nai Harn Re-Life",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawai Seaview Condominium",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Plus Condo 2",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "The Green Golf Residence",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Q Conzept Condominium",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Zen Space",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Park Surin",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Ko Kaeo, Phuket Town, Phuket",
-    "project": "Supalai Lagoon Condo",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Lotus Gardens",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Surin Gate",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "BYD Lofts",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Bhukitta Airport Condominium",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Pearl Condominium",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Kamala Falls",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Eden Village Residence",
-    "count": 4
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
+    "district": "Kamala",
     "project": "The Exclusive Sky",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Kathu",
+    "project": "Plus Condo 2",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "The Naithon Condominium",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "BYD Lofts",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Kata Royal",
     "count": 4
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Sands",
-    "count": 3
+    "district": "Choeng Thale",
+    "project": "Angsana Oceanview Residences",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Pornsawan Condotel",
-    "count": 3
+    "district": "Wichit",
+    "project": "Phanasons City Condominium",
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Talat Nuea, Phuket Town, Phuket",
+    "district": "Kamala",
+    "project": "The Club Residence",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Talat Nuea",
     "project": "Connext",
-    "count": 3
+    "count": 4
   },
   {
     "segment": "ready",
-    "district": "Talat Yai, Phuket Town, Phuket",
+    "district": "Kamala",
+    "project": "Zen Space",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Sea And Sky",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Q Conzept Condominium",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Lotus Gardens",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "Kathu Golf Condo",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Phuket Villa Patong Beach",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "Phanason City Condo",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Dewa Phuket Resort and Villas",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Eden Village Residence",
+    "count": 4
+  },
+  {
+    "segment": "ready",
+    "district": "Talat Yai",
     "project": "Supalai Park Phuket City",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Amari Residences Phuket",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
-    "project": "JJ Airport Condominium",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Art At Patong",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Phuket Villa Patong Beach",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Maan Tawan",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Yanui Paradise Beach Resort",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "VIP Kata Condominium 1",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Haven Lagoon",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Bangtao Beach Gardens",
-    "count": 3
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Seaview Residence",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Club Residence",
+    "district": "Mai Khao",
+    "project": "JJ Airport Condominium",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Rawai",
+    "project": "Pearl Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Amari Residences Phuket",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
     "project": "The Chava Resort",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Talat Yai, Phuket Town, Phuket",
+    "district": "Talat Yai",
     "project": "Phuket Avenue Condominium",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
+    "district": "Choeng Thale",
+    "project": "The Park Surin",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Cherng Lay Villas and Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Plantation",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "VIP Kata Condominium 1",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Bhukitta Airport Condominium",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
     "project": "Patong Loft",
     "count": 3
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Chalong Interview Condo",
-    "count": 2
+    "district": "Patong",
+    "project": "The Haven Lagoon",
+    "count": 3
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Rawai Condotel",
-    "count": 2
+    "district": "Rawai",
+    "project": "Yanui Paradise Beach Resort",
+    "count": 3
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Woods Natural Park",
-    "count": 2
+    "district": "Rawai",
+    "project": "CHARDONNAY NAIHARN",
+    "count": 3
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "The Heights Kata",
-    "count": 2
+    "district": "Rawai",
+    "project": "Rawai Seaview Condominium",
+    "count": 3
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Palms",
-    "count": 2
+    "district": "Ratsada",
+    "project": "Dcondo Campus Resort Kuku Phuket",
+    "count": 3
   },
   {
     "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Plantation",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Wyndham Garden Phuket Kamala",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Malaiwana",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Indochine Resort and Villas",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Allamanda 1 Condominium By Cozy Lake",
+    "count": 3
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Kiara Reserve Residence",
+    "count": 3
+  },
+  {
+    "segment": "off_plan",
+    "district": "Kathu",
+    "project": "Apartment in Kathu",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "The Tower condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Pa Khlok, Thalang, Phuket",
-    "project": "Grove Gardens Phuket",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Palm Spring Condo",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Beachfront Phuket",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "The Accenta",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Cherng Lay Villas and Condominium",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Pa Khlok, Thalang, Phuket",
-    "project": "Alanna Yamu",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong Bay Residence",
-    "count": 2
-  },
-  {
-    "segment": "ready",
-    "district": "Mai Khao, Thalang, Phuket",
+    "district": "Mai Khao",
     "project": "Blue Canyon Golf And Country Club Home 1",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Future Condo",
+    "district": "Karon",
+    "project": "Splendid Condominium",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "Andaman Bay View Residences",
+    "district": "Ratsada",
+    "project": "Supalai City Resort Phuket",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Kiara Reserve Residence",
+    "district": "Wichit",
+    "project": "Waterside",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Pa Khlok",
+    "project": "Grove Gardens Phuket",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Patong Bay Residence",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Pa Khlok",
+    "project": "Alanna Yamu",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Malaiwana",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Casuarina Shores",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "The Accenta",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Woods Natural Park",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "ART at Patong",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Beachfront Phuket",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Kata Rocks",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
+    "district": "Rawai",
+    "project": "Rawai Condotel",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Baan Mandala",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "The Heights Kata",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Bangtao Beach Gardens",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "Best Point",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "The Sands",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Chalong",
+    "project": "Andaman Bay View Residences",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
     "project": "Phuket Seaview Resotel",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Ko Kaeo, Phuket Town, Phuket",
-    "project": "Phumundra Resort Phuket",
+    "district": "Chalong",
+    "project": "The Tower condominium",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Kamala",
+    "project": "Wyndham Garden Phuket Kamala",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "The Panora Phuket by Mida Grande Resort Condominiums",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Art At Patong",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "The Future Condo",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
+    "project": "Pornsawan Condotel",
+    "count": 2
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
     "project": "Karon Hill Residence",
     "count": 2
   },
   {
     "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "The Kata Plaza",
     "count": 2
   },
   {
     "segment": "off_plan",
-    "district": "Choeng Thale, Thalang, Phuket",
+    "district": "Choeng Thale",
     "project": "Laguna Lakelands - Waterfront Villas",
     "count": 1
   },
   {
-    "segment": "off_plan",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Apartment in Kathu",
-    "count": 1
-  },
-  {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Phanason City Condo",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Waterside",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Baan Mandala",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "The Heritage Suites",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
+    "district": "Karon",
     "project": "Waterfront Karon",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Sai Rougn Residence",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "ART at Patong",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Paradox Karon",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "Supalai City Resort Phuket",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong View Apartment House",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Panora Phuket by Mida Grande Resort Condominiums",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Andaman Beach Suites",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Phuket Golf View Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "The Clover Phuket",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Baan Chai Nam",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Kata Gardens",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Oxygen Condominium Rawai",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Serenity Lakeside Resort & Residences",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "The Kris Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "Oceana Condo",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Casuarina Shores",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "BJ Park Garden",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Absolute Bangla Suites",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "The Residence Phuket",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Angsana Villas",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Karon View",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kamala, Kathu, Phuket",
-    "project": "The Pela Resort",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Baycliff Patong",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Plus Condo 1",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Laya Suites and Residences",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Les Cocotiers",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Swiss Palm Beach",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Choeng Thale, Thalang, Phuket",
-    "project": "Akra Collection Layan 1",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Sakhu, Thalang, Phuket",
-    "project": "Bukitta Airport Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "Job Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Hill Side Apartment",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Diamond Condominium Patong",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Fueang FA Condotel",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Kris Residence",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Si Sunthon, Thalang, Phuket",
-    "project": "Baan Ua-Athorn Thalang 1",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Karon, Phuket Town, Phuket",
-    "project": "Splendid Condominium",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Chalong, Phuket Town, Phuket",
-    "project": "Luxx Phuket",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
-    "project": "Naka Condo",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Ratsada, Phuket Town, Phuket",
-    "project": "Ocean Town Muang-Ratsada",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Pandora Residences",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Ko Kaeo, Phuket Town, Phuket",
+    "district": "Ko Kaeo",
     "project": "Supalai Lagoon Phuket",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "The Front Hotel and Apartments",
+    "district": "Kathu",
+    "project": "Phuket Golf View Condominium",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Wichit, Phuket Town, Phuket",
+    "district": "Kathu",
+    "project": "Serenity Lakeside Resort & Residences",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Akra Collection Layan 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "The Kris Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Kata Gardens",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Absolute Bangla Suites",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Sakhu",
+    "project": "Bukitta Airport Condominium",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Angsana Villas",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Maan Tawan",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Indochine Resort and Villas",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Karon",
+    "project": "Karon View",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Hill Side Apartment",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Diamond Condominium Patong",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Baan Chai Nam",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Patong View Apartment House",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Palms",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Ko Kaeo",
+    "project": "Phumundra Resort Phuket",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Kathu",
+    "project": "Plus Condo 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Palm Spring Condo",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Wichit",
     "project": "Veranda Villas & Suites Phuket",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Kathu, Kathu, Phuket",
-    "project": "Apartment in Kathu",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Rawai, Phuket Town, Phuket",
-    "project": "Sunrise",
-    "count": 1
-  },
-  {
-    "segment": "ready",
-    "district": "Si Sunthon, Thalang, Phuket",
+    "district": "Si Sunthon",
     "project": "Nebu Residences Bangtao",
     "count": 1
   },
   {
     "segment": "ready",
-    "district": "Patong, Kathu, Phuket",
-    "project": "Patong Harbor View",
+    "district": "Ratsada",
+    "project": "Ocean Town Muang-Ratsada",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "Oceana Condo",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Front Hotel and Apartments",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "The Residence Phuket",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Sai Rougn Residence",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Chalong Interview Condo",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Baycliff Patong",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Pela Resort",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Choeng Thale",
+    "project": "Laya Suites and Residences",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "The Kris Residence",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "Swiss Palm Beach",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Chalong",
+    "project": "Luxx Phuket",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Si Sunthon",
+    "project": "Baan Ua-Athorn Thalang 1",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Kamala",
+    "project": "The Regent Hotel Kamala Beach",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Rawai",
+    "project": "Sunrise",
+    "count": 1
+  },
+  {
+    "segment": "ready",
+    "district": "Patong",
+    "project": "BJ Park Garden",
     "count": 1
   }
 ]

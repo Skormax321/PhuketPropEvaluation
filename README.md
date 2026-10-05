@@ -4,12 +4,10 @@
 
 | Путь | Назначение |
 |------|------------|
-| `public/data/off_plan.json` | Листинги off-plan |
-| `public/data/ready.json` | Листинги ready |
-| `public/data/districts.json` | Районы для dropdown |
-| `public/data/projects_index.json` | Проекты для dropdown |
-| `scripts/clean_phuket_listings.py` | Сырой FazWaz CSV → `output/*.csv` |
-| `scripts/export_listings_for_web.py` | `output/*.csv` → `public/data/*.json` |
+| `public/data/phuket/` | JSON листингов Пхукет |
+| `public/data/pattaya/` | JSON листингов Паттайя |
+| `scripts/clean_phuket_listings.py` | Сырой FazWaz CSV → `output/{market}_*.csv` |
+| `scripts/export_listings_for_web.py` | CSV → `public/data/{market}/` |
 | `lib/benchmark.ts` | Логика когорт и percentiles |
 | `components/` | Форма, таблица, графики, CSV |
 | `components/LeadGate.tsx` | Экран сбора контактов перед калькулятором |
@@ -54,6 +52,29 @@ Environment Variables.
 | `LEAD_SOURCE` | нет | Метка источника в заявке |
 
 Бот должен быть добавлен в чат; `TELEGRAM_CHAT_ID` для групп начинается с `-100`.
+
+## Обновление данных
+
+Сырые CSV рядом с репозиторием (не в git), выборка сентября 2026:
+
+- `off-plan-Phuket-09.csv`, `ready-Phuket-09.csv`
+- `pattaya-off-plan-09.csv`, `pattaya-ready-09.csv`
+
+```bash
+python3 scripts/clean_phuket_listings.py --market all
+python3 scripts/export_listings_for_web.py --market all
+```
+
+Курс: **32.41 THB/USD**. Dedupe по `unit_id`. QC: area 20–900, bedrooms ≤ 4, THB/m² 20 000–500 000, типы Condo / Apartment / Penthouse, без пустого проекта и районов ровно `Pattaya` / `Phuket`. Район — часть `location` до запятой.
+
+| Поле | Колонка |
+|------|---------|
+| `project` | `project_name` |
+| `district` | `location` |
+| `price_usd` | `price` / 32.41 |
+| `price_usd_sqm` | `price_per_sqm` / 32.41 |
+| `area_sqm` | `area_sqm` |
+| `bedrooms` | `bedrooms` (`Studio` → 0) |
 
 ## Разработка
 
