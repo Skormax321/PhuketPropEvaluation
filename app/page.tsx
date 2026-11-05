@@ -33,7 +33,7 @@ export default async function Home() {
       </div>
 
       <footer className="mt-12 border-t border-border pt-5 text-xs leading-relaxed text-muted">
-        Источник данных: FazWaz, выборка от сентября 2026 года. Информация не
+        Источник данных: FazWaz, выборка от октября 2026 года. Информация не
         является индивидуальной инвестиционной рекомендацией.
       </footer>
     </main>
