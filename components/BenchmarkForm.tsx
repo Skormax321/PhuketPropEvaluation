@@ -129,21 +129,62 @@ export default function BenchmarkForm({
       onSubmit={handleSubmit}
       className="box-border grid w-full min-w-0 max-w-full gap-4 rounded-lg border border-border bg-white p-4 sm:p-5"
     >
-      <label className="grid w-full min-w-0 max-w-xs gap-1 text-sm">
-        <span className="text-muted">Рынок</span>
-        <select
-          value={market}
-          onChange={(e) => onMarketChange(e.target.value as Market)}
-          className={fieldClass}
-          disabled={disabled}
+      <div className="flex w-full min-w-0 flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
+        <a
+          href="/thailand-phuket-2026.pdf"
+          download="thailand-phuket-2026.pdf"
+          className="order-1 flex min-h-[4.75rem] min-w-0 flex-1 items-center gap-3 rounded-md bg-[#302f35] px-4 py-3 text-left no-underline transition-opacity hover:opacity-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink sm:order-2 sm:self-center"
         >
-          {(Object.keys(MARKET_LABELS) as Market[]).map((m) => (
-            <option key={m} value={m}>
-              {MARKET_LABELS[m]}
-            </option>
-          ))}
-        </select>
-      </label>
+          <span className="min-w-0 flex-1">
+            <span className="block text-[10px] font-medium uppercase tracking-[0.08em] text-[#b8b7bc]">
+              Рыночный анализ
+            </span>
+            <span className="mt-1 block text-sm font-semibold leading-snug text-white sm:text-base">
+              Таиланд и Пхукет в{"\u00A0"}2026 году
+            </span>
+            <span className="mt-1 block text-[11px] text-[#b8b7bc]">
+              Зрелость рынка | Устойчивый спрос
+            </span>
+          </span>
+          <span
+            className="flex w-10 shrink-0 items-center justify-center self-stretch text-white"
+            aria-hidden="true"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 4v12m0 0l-5-5m5 5l5-5M5 19h14"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
+          <span className="sr-only">Скачать отчёт PDF</span>
+        </a>
+
+        <label className="order-2 grid w-full min-w-0 max-w-xs shrink-0 gap-1 text-sm sm:order-1">
+          <span className="text-muted">Рынок</span>
+          <select
+            value={market}
+            onChange={(e) => onMarketChange(e.target.value as Market)}
+            className={fieldClass}
+            disabled={disabled}
+          >
+            {(Object.keys(MARKET_LABELS) as Market[]).map((m) => (
+              <option key={m} value={m}>
+                {MARKET_LABELS[m]}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
 
       <h2 className="text-sm font-medium text-ink">Параметры юнита</h2>
       <div className="grid w-full min-w-0 gap-4 sm:grid-cols-2 lg:grid-cols-3">
